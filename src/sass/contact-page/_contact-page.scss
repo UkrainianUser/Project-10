@@ -1,0 +1,121 @@
+.section-contact {
+    padding-top: 36px;
+    padding-bottom: 32px;
+    background: $primary-background-color;
+   
+}
+
+.contacts-list__iteam {
+    display: flex;
+    align-items: center;
+
+    &:not(:first-child) {
+            margin-top: 16px;
+        }
+}
+
+.main-title {
+  margin-bottom: 12px;  
+
+color: $logo-black-color;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-family: Film P3, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.075;
+}
+
+.title {
+    margin-bottom: 16px;
+  font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+  color: #5F5F5F;
+}
+
+.contacts-list__restorant {
+    padding-right: 22px;
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: $brown-color;
+}
+
+.contacts-list__hotel {
+    padding-right: 54px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: $brown-color;
+}
+
+.contacts__thumb {
+    
+    background-color: $white-text-color;
+    border: 0.5px solid #F3C653;
+    border-radius: 2px;
+
+}
+
+.contacts__thumb--position {
+    margin-left: 134px;
+}
+
+.contacts__number {
+    display: flex;
+    align-items: center;
+    
+    padding: 12px 8px 11px 14px;
+    
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: $logo-black-color;
+}
+
+.contacts__number--position {
+    padding-left: 14px;
+}
+
+.contacts__adress {
+    display: flex;
+    align-items: center;
+    padding: 8px 33px 7px 16px;
+
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.01em;
+}
+
+.contacts__icon {
+    margin-right: 8px;
+    fill: $fill-yellow-icons;
+}
+
+.thumb {
+    width: 384px;
+        height: 220px;
+        margin-top: 32px;
+}
+
+.map {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

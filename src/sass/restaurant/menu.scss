@@ -1,0 +1,55 @@
+.menu {
+	color: $primary-text-color;
+	background-color: $primary-background-color;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 1.2;
+}
+.menu__title {
+	margin-bottom: 32px;
+	font-family: 'Times New Roman', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1.15;
+}
+.menu__table {
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.menu__caption {
+	display: inline-block;
+	margin-bottom: 16px;
+	font-family: 'Times New Roman', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.15;
+}
+.menu__name {
+	display: inline-block;
+	min-width: 220px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.menu__portion {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.menu__price {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.menu__ingredients {
+	display: inline-block;
+	max-width: 220px;
+}

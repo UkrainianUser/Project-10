@@ -4,7 +4,7 @@
     background-color: $primary-background-color;
 
     &__tagline {
-        display: block;
+        display: flex;
         margin-bottom: 8px;
 
         color: $optional-text-color-under-logo;

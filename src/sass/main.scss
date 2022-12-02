@@ -76,6 +76,9 @@
 @import './utils/variables-colors';
 @import './base-components';
 
+@import './hotel/room-two/section-room-two-luxe';
+@import './hotel/room-two/section-room-three';
+
 @import './layouts/header';
 @import './layouts/footer';
 @import './layouts/logo';
@@ -91,5 +94,6 @@
 
 @import './hotel/room-two/section-room-two';
 @import './hotel/room-two/room-image';
+@import './hotel/room-two/room-three-image';
 @import './hotel/room-two/room-button';
 

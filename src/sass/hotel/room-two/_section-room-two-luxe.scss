@@ -1,0 +1,77 @@
+.room-two-luxe {
+    width: 100%;
+    padding: 32px 0px;
+    background-color: $primary-background-color;
+
+    &__tagline {
+        display: block;
+        margin-bottom: 8px;
+
+        color: $optional-text-color-under-logo;
+        font-family: 'Times New Roman', serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.15;
+    }
+
+    &__logo {
+        display: block;
+        margin-bottom: 32px;
+
+        color: $logo-black-color;
+        text-transform: uppercase;
+        font-family: 'Film P3', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.075;
+        letter-spacing: 0.3em;
+    }
+
+    &__title {
+        display: block;
+        margin-bottom: 12px;
+
+        color: $primary-text-color;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: 0.05em;
+    }
+
+    &__text {
+        display: flex;
+        width: 100%;
+        margin-bottom: 32px;
+
+        color: #5f5f5f;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.22;
+        letter-spacing: 0.02;
+
+        @media screen and (min-width: 414px) {
+                width: 258px;
+            }
+    }
+
+    &__svg {
+        margin-bottom: 27.59px;
+    }
+
+    &__svg-arrow {
+        display: inline-block;
+        margin-right: 33.92px;
+        fill: $fill-black-icons;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: $timing-function
+    }
+
+    &__svg-arrow:focus,
+    &__svg-arrow:hover {
+        fill: $fill-yellow-icons;
+    }
+}

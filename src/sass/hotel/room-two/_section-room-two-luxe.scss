@@ -1,4 +1,4 @@
-.room-two {
+.room-two-luxe {
     width: 100%;
     padding: 32px 0px;
     background-color: $primary-background-color;
@@ -70,8 +70,8 @@
         transition-timing-function: $timing-function
     }
 
-        &__svg-arrow:focus,
-        &__svg-arrow:hover {
-            fill: $fill-yellow-icons;
-        }
+    &__svg-arrow:focus,
+    &__svg-arrow:hover {
+        fill: $fill-yellow-icons;
+    }
 }

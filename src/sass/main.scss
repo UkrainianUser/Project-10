@@ -57,7 +57,22 @@
 @import './common';
 @import './utils/variables-colors';
 @import './base-components';
+
 @import './layouts/header';
 @import './layouts/footer';
 @import './layouts/logo';
+
+
+@import './components/button';
+@import './components/hero';
+@import './components/hero-hotel';
+@import './components/hero-restaurant';
+@import './components/hero-room';
+@import './components/main-hero';
+@import './components/socials';
+
+@import './hotel/room-two/section-room-two';
+@import './hotel/room-two/room-image';
+@import './hotel/room-two/room-button';
+
 

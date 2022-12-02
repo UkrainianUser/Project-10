@@ -57,6 +57,7 @@
 @import './common';
 @import './utils/variables-colors';
 @import './base-components';
+
 @import './components/button';
 @import './components/hero';
 @import './components/hero-hotel';
@@ -65,9 +66,7 @@
 @import './components/main-hero';
 @import './components/socials';
 
-
-
-
-
-
+@import './hotel/room-two/section-room-two';
+@import './hotel/room-two/room-image';
+@import './hotel/room-two/room-button';
 

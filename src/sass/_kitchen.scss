@@ -1,0 +1,81 @@
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.kitchen {
+    background-color: $primary-background-color;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.kitchen__text {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    color: $optional-text-color-under-logo;
+    margin-bottom: 12px;
+}
+
+.kitchen__logo {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.02;
+    letter-spacing: 0.3em;
+    color: $logo-black-color;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.kitchen__description {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #5F5F5F;
+    margin-bottom: 28px;
+    width: 66.66666%;
+}
+
+.kitchen__description--brown {
+    color: $brown-color;
+}
+
+
+.kitchen__flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.kitchen__foto {
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    background: #DADADA;
+}
+
+.kitchen__foto--position {
+    margin-bottom: 32px;
+}
+
+.kitchen__foto--right {
+    margin-left: auto;
+}
+
+.kitchen__foto--centr {
+    margin: 0 auto 20px;
+   
+}
+

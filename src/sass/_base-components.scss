@@ -29,9 +29,15 @@ img {
   height: auto;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+  // background-color: $primary-background-color;
+  color: $primary-text-color;
+}
+
 .container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
 

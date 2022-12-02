@@ -1,7 +1,7 @@
 .menu {
 	color: $primary-text-color;
 	background-color: $primary-background-color;
-	font-family: 'Montserrat' sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 10px;
@@ -9,7 +9,7 @@
 }
 .menu__title {
 	margin-bottom: 32px;
-	font-family: 'Times New Roman' serif;
+	font-family: 'Times New Roman', serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 32px;
@@ -23,7 +23,7 @@
 .menu__caption {
 	display: inline-block;
 	margin-bottom: 16px;
-	font-family: 'Times New Roman' serif;
+	font-family: 'Times New Roman', serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;

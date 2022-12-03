@@ -2,9 +2,9 @@
     <div class="details__container--restoran">
         <h3 class="details__subtitle">MIMIHO</h3>
     <h2 class="details__title">Ресторан</h2>
-    <p class="details__text"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+    <p class="details__text details__text--restoran"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
     </div>
-    <div class="details__wrapper">
+    <div class="details__wrapper details__wrapper--restoran">
         <div class="slider__container">
             <ul class="details__slider">
                 <li class="slider-item">
@@ -23,7 +23,7 @@
                         media="(max-width: 1279px)">
                         <source srcset="./images/details-restoran/brusketa-desktop.jpg 1x, ./images/details-restoran/brusketa-desktop@2x.jpg 2x"
                         media="((min-width: 1280px)">
-                        <img class="details-image details-image--tablet" src="./images/details-restoran/brusketa-tablet.jpg" alt="Brusketa on the desk"></picture>
+                        <img class="details-image details-image--swiper" src="./images/details-restoran/brusketa-tablet.jpg" alt="Brusketa on the desk"></picture>
                 </li>
                 <li class="slider-item">
                     <picture>
@@ -31,7 +31,7 @@
                         media="(max-width: 1279px)">
                         <source srcset="./images/details-restoran/salat-desktop.jpg 1x, ./images/details-restoran/salat-desktop@2x.jpg 2x"
                         media="(min-width: 1280px)">
-                        <img class="details-image details-image--desktop" src="./images/details-restoran/salat-tablet.jpg" alt="Salat in the plate"></picture>
+                        <img class="details-image details-image--swiper" src="./images/details-restoran/salat-tablet.jpg" alt="Salat in the plate"></picture>
                 </li>
             </ul>
             <ul class="details__icon">
@@ -47,9 +47,14 @@
                 </li>
             </ul>
         </div>
-       <div class="button__container">
-            <button class="details__button" type="button">Забронювати столик</button>
+       <div class="button__container button__container--restoran">
+
+            <button class="details__button" type="button" data-modal-open>Забронювати столик</button>
+            <button class="details__button" type="button" data-modal-open>Переглянути меню</button>
+
+            <button class="details__button" type="button" data-modal-open-table>Забронювати столик</button>
             <button class="details__button" type="button">Переглянути меню</button>
+
        </div>
     </div>
 </section>

@@ -2,7 +2,7 @@
     <div class="details__container--hotel">
         <h3 class="details__subtitle details__subtitle--hotel">MIMIHO</h3>
     <h2 class="details__title details__title--hotel">Готель</h2>
-    <p class="details__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+    <p class="details__text details__text--hotel">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
     </div>
     <div class="details__wrapper details__wrapper--hotel">
         <div class="slider__container--hotel">
@@ -23,7 +23,7 @@
                         media="(max-width: 1279px)">
                         <source srcset="./images/details-hotel/breakfast-desktop.jpg 1x, ./images/details-hotel/breakfast-desktop@2x.jpg 2x"
                         media="((min-width: 1280px)">
-                        <img class="details-image details-image--tablet" src="./images/details-hotel/breakfast-tablet.jpg" alt="Breakfast"></picture>
+                        <img class="details-image details-image--swiper" src="./images/details-hotel/breakfast-tablet.jpg" alt="Breakfast"></picture>
                 </li>
                 <li class="slider-item">
                     <picture>
@@ -31,25 +31,30 @@
                         media="(max-width: 1279px)">
                         <source srcset="./images/details-hotel/reception-desktop.jpg 1x, ./images/details-hotel/reception-desktop@2x.jpg 2x"
                         media="(min-width: 1280px)">
-                        <img class="details-image details-image--desktop" src="./images/details-hotel/reception-tablet.jpg" alt="Salat in the plate"></picture>
+                        <img class="details-image details-image--swiper" src="./images/details-hotel/reception-tablet.jpg" alt="Salat in the plate"></picture>
                 </li>
             </ul>
             <ul class="details__icon details__icon--hotel">
                 <li class="icon__item">
                     <svg class="details__arrow" width="32" height="32">
-                        <use href="./svg/icon.svg#icon-arrow-left"></use>
+                        <use href="./svg/icon.svg#icon-arrow-right"></use>
                     </svg>
                 </li>
                 <li class="icon__item">
                     <svg class="details__arrow" width="32" height="32">
-                        <use href="./svg/icon.svg#icon-arrow-right"></use>
+                        <use href="./svg/icon.svg#icon-arrow-left"></use>
                     </svg>
                 </li>
             </ul>
         </div>
        <div class="button__container button__container--hotel">
-            <button class="details__button" type="button">Забронювати номер</button>
-            <button class="details__button" type="button">Переглянути ціни</button>
+
+            <button class="details__button" type="button" data-modal-open>Забронювати номер</button>
+            <button class="details__button" type="button" data-modal-open>Переглянути ціни</button>
+
+            <button class="details__button" type="button" data-modal-open-room>Забронювати номер</button>
+            <button class="details__button" type="button" data-modal-open-price>Переглянути ціни</button>
+
       
     </div>
 </section>

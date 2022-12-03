@@ -173,6 +173,11 @@
     list-style: none;
     display: flex;
     gap: 32px;
+    margin-bottom: 32px;
+
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 40px;
+    }
 }
 .icon__item {
     color: $white-text-color;
@@ -189,7 +194,6 @@
     }
 }
 .button__container {
-    padding-top: 32px;
     display: flex;
     gap: 16px;
     
@@ -198,9 +202,7 @@
     padding-bottom: 40px;
 
     @media screen and (min-width: 1024px) {
-        padding-top: 0;
-        padding-left: 47px;
-        padding-bottom: 60px;
+        padding: 0 0 100px 47px;
         justify-content: flex-end;
     }
     @media screen and (min-width: 1280px) {

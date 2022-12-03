@@ -54,4 +54,72 @@ $pictures-box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
 //Icons//
 $fill-white-icons: #ffffff;
 $fill-black-icons: #000000;
-$fill-yellow-icons: #f3c653; ;
+$fill-yellow-icons: #f3c653; 
+
+
+// Gradient About our restaurant, Contacts, About our kitchen, Hotel Page, Room Page
+$liner-gradient-main-mobile: linear-gradient(to right,
+transparent 33%,
+rgba(186, 186, 186, 0.4) 33%,
+rgba(186, 186, 186, 0.4) 33.5%,
+transparent 33.5%,
+transparent 67%,
+rgba(186, 186, 186, 0.4) 67%,
+rgba(186, 186, 186, 0.4) 67.5%,
+transparent 67.5%);
+$liner-gradient-main-tablet: linear-gradient(to right,
+transparent 25%,
+rgba(186, 186, 186, 0.4) 25%,
+rgba(186, 186, 186, 0.4) 25.2%,
+transparent 25.2%,
+transparent 50%,
+rgba(186, 186, 186, 0.4) 50%,
+rgba(186, 186, 186, 0.4) 50.2%,
+transparent 50.2%,
+transparent 75%,
+rgba(186, 186, 186, 0.4) 75%,
+rgba(186, 186, 186, 0.4) 75.2%,
+transparent 75.2%);
+
+// Gradient Details of our restaurant, Details of our hotel
+$liner-gradient-details-mobile: linear-gradient(to right,
+transparent 33%,
+rgba(122, 122, 122, 0.4) 33%,
+rgba(122, 122, 122, 0.4) 33.5%,
+transparent 33.5%,
+transparent 67%,
+rgba(122, 122, 122, 0.4) 67%,
+rgba(122, 122, 122, 0.4) 67.5%,
+transparent 67.5%);
+$liner-gradient-details-tablet: linear-gradient(to right,
+transparent 25%,
+rgba(122, 122, 122, 0.4) 25%,
+rgba(122, 122, 122, 0.4) 25.2%,
+transparent 25.2%,
+transparent 50%,
+rgba(122, 122, 122, 0.4) 50%,
+rgba(122, 122, 122, 0.4) 50.2%,
+transparent 50.2%,
+transparent 75%,
+rgba(122, 122, 122, 0.4) 75%,
+rgba(122, 122, 122, 0.4) 75.2%,
+transparent 75.2%);
+$liner-gradient-details: linear-gradient(to right, 
+rgba(0, 0, 0, 0.65),
+rgba(0, 0, 0, 0.65));
+
+// Gradient Footer
+$liner-gradient-footer-mobile: linear-gradient(to right,
+transparent 67%,
+rgba(122, 122, 122, 0.4) 67%,
+rgba(122, 122, 122, 0.4) 67.5%,
+transparent 67.5%);
+$liner-gradient-footer-tablet: linear-gradient(to right,
+transparent 50%,
+rgba(122, 122, 122, 0.4) 50%,
+rgba(122, 122, 122, 0.4) 50.2%,
+transparent 50.2%,
+transparent 75%,
+rgba(122, 122, 122, 0.4) 75%,
+rgba(122, 122, 122, 0.4) 75.2%,
+transparent 75.2%);

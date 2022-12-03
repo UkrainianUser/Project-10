@@ -1,6 +1,7 @@
 
 import './js/modal.js';
 import './js/swiper';
+import './js/swiper-pages';
 
 // (() => {
 //     const refs = {

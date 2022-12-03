@@ -3,8 +3,9 @@
     margin: 0 auto;
 
     background-color:rgba(0, 0, 0, 0.65);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65),
-    rgba(0, 0, 0, 0.65)), url("../images/details-hotel/hotel-mobile.jpg");
+    background-image: $liner-gradient-details-mobile,
+     $liner-gradient-details,
+     url("../images/details-hotel/hotel-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,32 +13,37 @@
     @media screen and (min-device-pixel-ratio: 2), 
     screen and (min-resolution: 192dpi), 
     screen and (min-resolution: 2dppx) {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)), url("../images/details-hotel/hotel-mobile@2x.jpg");
+        background-image: $liner-gradient-details-mobile,
+         $liner-gradient-details, 
+         url("../images/details-hotel/hotel-mobile@2x.jpg");
     }
 
     @media screen and (min-width: 1024px) {
         max-width: 1024px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 0.65)), url("../images/details-hotel/hotel-tablet.jpg");
+        background-image: $liner-gradient-details-tablet,
+         $liner-gradient-details,
+         url("../images/details-hotel/hotel-tablet.jpg");
 
         @media screen and (min-device-pixel-ratio: 2), 
         screen and (min-resolution: 192dpi), 
         screen and (min-resolution: 2dppx) {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65),
-            rgba(0, 0, 0, 0.65)), url("../images/details-hotel/hotel-tablet@2x.jpg");
+            background-image: $liner-gradient-details-tablet,
+             $liner-gradient-details,
+             url("../images/details-hotel/hotel-tablet@2x.jpg");
         }
     }
     @media screen and (min-width: 1280px) {
         max-width: 1280px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65),
-            rgba(0, 0, 0, 0.65)), url("../images/details-hotel/hotel-desktop.jpg");
+        background-image: $liner-gradient-details-tablet,
+         $liner-gradient-details,
+             url("../images/details-hotel/hotel-desktop.jpg");
     
         @media screen and (min-device-pixel-ratio: 2), 
         screen and (min-resolution: 192dpi), 
         screen and (min-resolution: 2dppx) {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65),
-            rgba(0, 0, 0, 0.65)), url("../images/details-hotel/hotel-desktop@2x.jpg");
+            background-image: $liner-gradient-details-tablet,
+             $liner-gradient-details,
+             url("../images/details-hotel/hotel-desktop@2x.jpg");
        }
     
        }

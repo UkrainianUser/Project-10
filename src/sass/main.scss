@@ -104,31 +104,31 @@
 @import './utils/variables-colors';
 @import './base-components';
 
-@import './hotel/room-two/section-room-two-luxe';
-@import './hotel/room-two/section-room-three';
+@import './hotel/room/section-room-two-luxe';
+@import './hotel/room/section-room-three';
 
-@import './layouts/header';
-@import './layouts/footer';
-@import './layouts/logo';
+@import './header/header';
+@import './components/logo';
+@import './footer/footer';
 
 @import './components/button';
 @import './components/hero';
-@import './components/hero-hotel';
-@import './components/hero-restaurant';
+@import './hotel/hero-hotel';
+@import './restaurant/hero-restaurant';
 @import './components/hero-room';
 @import './components/amenities';
-@import './components/main-hero';
+@import './main-page/main-hero';
 @import './components/socials';
 
-@import './hotel/room-two/section-room-two';
-@import './hotel/room-two/room-image';
-@import './hotel/room-two/room-three-image';
-@import './hotel/room-two/room-button';
+@import './hotel/room/section-room-two';
+@import './hotel/room/room-image';
+@import './hotel/room/room-three-image';
+@import './hotel/room-button';
 
-@import './kitchen';
+@import './restaurant/kitchen';
 
 @import './utils/visually-hidden';
 @import './restaurant/restaurant-section';
-@import './contact-page/contact-page';
+@import './main-page/contact-page';
 
-@import './about-hotel/about-hotel-section.scss'
+@import './hotel/about-hotel-section.scss';

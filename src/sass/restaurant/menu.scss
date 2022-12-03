@@ -16,11 +16,23 @@
 	font-size: 32px;
 	line-height: 1.15;
 }
+.table-container {
+	@media screen and (min-width: 1024px) {
+		display: flex;
+		column-gap: 88px;
+		justify-content: space-between;
+	}
+}
+.table-container__left, .table-container__right {
+	@media screen and (min-width: 1024px) {
+		width: 50%;
+	}
+}
 .menu__table {
 	width: 100%;
+	height: fit-content;
 	margin-bottom: 16px;
 }
-
 .menu__caption {
 	display: inline-block;
 	margin-bottom: 16px;
@@ -69,15 +81,16 @@
 	background: $restaurant-background-button-color;
 	border: 2px solid $primary-background-color;
 	border-radius: 25px;
-	transition:	background-color 250ms $timing-function;
+	transition:	background-color 250ms $timing-function, 
+	border-color 250ms $timing-function;
 
 	&:hover,
 	&:focus {
-		background-color: $yellow-accent-color;
-		color: $primary-text-color;
+		background-color: $hover-white-background-button-color;
+		border-color: $yellow-accent-color;
 	}
 
 	&:disabled {
-		color: $white-text-color;
+		background-color: $restaurant-background-button-color;
 	}
 }

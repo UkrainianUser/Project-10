@@ -1,0 +1,77 @@
+<section class="table-reservation">
+  <h2 class="table-reservation__title visually-hidden">ЗАБРОНЮВАТИ СТОЛИК</h2>
+
+  <!-- Модальне вікно для замовлення столиків -->
+  <div class="backdrop" data-modal>
+    <div class="modal">
+      <button class="modal__btn-close" data-modal-close>
+        <svg class="modal__btn-close-icon" width="24px" height="24px">
+          <use href="././svg/icon.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <h3 class="modal__title">Забронювати столик</h3>
+      <form class="modal__form">
+        <div class="box">
+          <label class="modal__form-label">
+            <input
+              type="text"
+              class="modal__form-input"
+              name="user-name"
+              placeholder="Ваше ім'я"
+            />
+            <span class="modal__form-title">На кого забронювати столик?</span>
+          </label>
+
+          <label class="modal__form-label">
+            <input
+              type="tel"
+              class="modal__form-input"
+              name="user-phone"
+              placeholder="+38 (___) ___-__-__"
+            />
+            <span class="modal__form-title">Номер телефону</span>
+          </label>
+
+          <label class="modal__form-label">
+            <select class="modal__form-input" name="user-amount-people">
+              <option value="1">1</option>
+              <option value="2" selected>2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="4">5</option>
+              <option value="4">6</option>
+              <option value="4">7</option>
+              <option value="4">8</option>
+              <option value="4">9</option>
+              <option value="4">10</option>
+            </select>
+            <span class="modal__form-title">
+              Столик на яку кількість осіб?
+            </span>
+          </label>
+
+          <label class="modal__form-label">
+            <select class="modal__form-input" name="user-amount-people">
+              <option value="today" selected>Сьогодні</option>
+              <option value="monday">Понеділок</option>
+              <option value="Tuesday">Вівторок</option>
+              <option value="Wednesday">Середа</option>
+              <option value="Thursday">Четвер</option>
+              <option value="Friday">П'ятниця</option>
+              <option value="Saturday">Субота</option>
+              <option value="Sunday">Неділя</option>
+            </select>
+            <span class="modal__form-title">
+              Столик на яку кількість осіб?
+            </span>
+          </label>
+        </div>
+
+        <button type="submit" class="modal__btn">Оформити бронювання</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="././js/modal.js"></script>
+</section>

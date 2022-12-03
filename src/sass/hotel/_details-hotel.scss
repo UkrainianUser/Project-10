@@ -62,3 +62,31 @@
 .details__title--hotel {
     text-align: end;
 }
+.details__wrapper--hotel{
+    flex-direction: row;
+    justify-content: end;
+}
+.slider__container--hotel {
+    padding-right: 40px;
+    @media screen and (min-width: 1024px) {
+        padding-right: 0;
+    }
+}
+.details__slider--hotel {
+    flex-direction: row-reverse;
+}
+
+.details__icon--hotel {
+    flex-direction: row-reverse;
+}
+.button__container--hotel {
+    @media screen and (min-width: 1024px) {
+        padding: 0 47px 100px 0;
+        justify-content: flex-end;
+    
+    }
+    @media screen and (min-width: 1280px) {
+        padding-right: 85px;
+
+    }
+}

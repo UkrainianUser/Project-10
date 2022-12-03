@@ -1,4 +1,5 @@
 @font-face {
+
 	font-family: "Times New Roman";
 	src: url("../fonts/ofont.ru_Times New Roman.eot");
 	src: local("☺"), url("../fonts/ofont.ru_Times\ New\ Roman.woff") format("woff"),
@@ -26,38 +27,84 @@
 		url("../fonts/FontsFree-Net-FilmP3Bold.svg") format("svg");
 	font-weight: bold;
 	font-style: normal;
+
+  font-family: 'Times New Roman';
+  src: url('../fonts/ofont.ru_Times New Roman.eot');
+  src: local('☺'),
+    url('../fonts/ofont.ru_Times\ New\ Roman.woff') format('woff'),
+    url('../fonts/ofont.ru_Times New Roman.ttf') format('truetype'),
+    url('../fonts/ofont.ru_Times New Roman.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
+  font-family: 'Times New Roman';
+  src: url('../fonts/times-new-roman-gras.eot');
+  src: local('☺'), url('../fonts/times-new-roman-gras.woff') format('woff'),
+    url('../fonts/times-new-roman-gras.ttf') format('truetype'),
+    url('../fonts/times-new-roman-gras.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Film P3';
+  src: url('../fonts/FontsFree-Net-FilmP3Bold.eot');
+  src: local('☺'), url('../fonts/FontsFree-Net-FilmP3Bold.woff') format('woff'),
+    url('../fonts/FontsFree-Net-FilmP3Bold.ttf') format('truetype'),
+    url('../fonts/FontsFree-Net-FilmP3Bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+
+}
+@font-face {
+
 	font-family: "Montserrat";
 	src: url("../fonts/Montserrat-VariableFont_wght.eot");
 	src: local("☺"), url("../fonts/Montserrat-VariableFont_wght.woff") format("woff"),
 		url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype"),
 		url("../fonts/Montserrat-VariableFont_wght.svg") format("svg");
+
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.svg') format('svg');
+
 	font-weight: 400;
 	font-style: normal;
 }
-
 @font-face {
+
 	font-family: "Montserrat";
 	src: url("../fonts/montserrat-alternates-medium.eot");
 	src: local("☺"), url("../fonts/montserrat-alternates-medium.woff") format("woff"),
 		url("../fonts/montserrat-alternates-medium.ttf") format("truetype"),
 		url("../fonts/montserrat-alternates-medium.svg") format("svg");
+
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Medium.eot');
+	src: local('☺'), url('../fonts/Montserrat-Medium.woff') format('woff'), url('../fonts/Montserrat-Medium.ttf') format('truetype'), url('../fonts/Montserrat-Medium.svg') format('svg');
+
 	font-weight: 500;
 	font-style: normal;
 }
-
 @font-face {
+
 	font-family: "Montserrat";
 	src: url("../fonts/montserrat-alternates-semibold.eot");
 	src: local("☺"), url("../fonts/montserrat-alternates-semibold.woff") format("woff"),
 		url("../fonts/montserrat-alternates-semibold.ttf") format("truetype"),
 		url("../fonts/montserrat-alternates-semibold.svg") format("svg");
+
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-SemiBold.eot');
+	src: local('☺'), url('../fonts/Montserrat-SemiBold.woff') format('woff'), url('../fonts/Montserrat-SemiBold.ttf') format('truetype'), url('../fonts/Montserrat-SemiBold.svg') format('svg');
+
 	font-weight: 600;
 	font-style: normal;
 }
 @font-face {
+
 	font-family: "Montserrat";
 	src: url("../fonts/montserrat-alternates-bold.eot");
 	src: local("☺"), url("../fonts/montserrat-alternates-bold.woff") format("woff"),
@@ -75,3 +122,81 @@
 @import "./hotel/room-two/room-button";
 
 @import "./modal/table-reservation";
+
+
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: url('../fonts/Montserrat-VariableFont_wght.eot');
+//   src: local('☺'),
+//     url('../fonts/Montserrat-VariableFont_wght.woff') format('woff'),
+//     url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
+//     url('../fonts/Montserrat-VariableFont_wght.svg') format('svg');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: url('../fonts/montserrat-alternates-medium.eot');
+//   src: local('☺'),
+//     url('../fonts/montserrat-alternates-medium.woff') format('woff'),
+//     url('../fonts/montserrat-alternates-medium.ttf') format('truetype'),
+//     url('../fonts/montserrat-alternates-medium.svg') format('svg');
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: url('../fonts/montserrat-alternates-semibold.eot');
+//   src: local('☺'),
+//     url('../fonts/montserrat-alternates-semibold.woff') format('woff'),
+//     url('../fonts/montserrat-alternates-semibold.ttf') format('truetype'),
+//     url('../fonts/montserrat-alternates-semibold.svg') format('svg');
+//   font-weight: 600;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: url('../fonts/montserrat-alternates-bold.eot');
+//   src: local('☺'),
+//     url('../fonts/montserrat-alternates-bold.woff') format('woff'),
+//     url('../fonts/montserrat-alternates-bold.ttf') format('truetype'),
+//     url('../fonts/montserrat-alternates-bold.svg') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+@import './common';
+@import './utils/variables-colors';
+@import './base-components';
+
+@import './hotel/room/section-room-two-luxe';
+@import './hotel/room/section-room-three';
+
+@import './header/header';
+@import './components/logo';
+@import './footer/footer';
+
+@import './components/button';
+@import './components/hero';
+@import './hotel/hero-hotel';
+@import './restaurant/hero-restaurant';
+@import './components/hero-room';
+@import './components/amenities';
+@import './main-page/main-hero';
+@import './components/socials';
+
+@import './hotel/room/section-room-two';
+@import './hotel/room/room-image';
+@import './hotel/room/room-three-image';
+@import './hotel/room-button';
+
+@import './restaurant/kitchen';
+
+@import './utils/visually-hidden';
+@import './restaurant/restaurant-section';
+@import './main-page/contact-page';
+
+@import './hotel/about-hotel-section.scss';
+

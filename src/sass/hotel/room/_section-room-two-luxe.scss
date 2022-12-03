@@ -1,138 +1,155 @@
 .room-two-luxe {
-    width: 100%;
-    padding: 32px 0px;
-    background-color: $primary-background-color;
-
-    @media screen and (min-width:1024px) {
-        padding-top: 62px;
-        padding-bottom: 47px;
-    }
-
-    &__container-position {
-        position: relative;
-    }
-
-    &__tagline {
-        display: flex;
-        margin-bottom: 8px;
-
-        color: $optional-text-color-under-logo;
-        font-family: 'Times New Roman', serif;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 1.15;
-
-        @media screen and (min-width:1024px) {
-            margin-bottom: 4px;
-            font-size: 32px;
-        }
-    }
-
-    &__logo {
-        display: block;
-        margin-bottom: 32px;
-
-        color: $logo-black-color;
-        text-transform: uppercase;
-        font-family: 'Film P3', sans-serif;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 1.075;
-        letter-spacing: 0.3em;
-
-        @media screen and (min-width:1024px) {
-            font-size: 64px;
-            margin-bottom: 62px;
-        }
-    }
-
-    &__title {
-        display: flex;
-        margin-bottom: 12px;
-
-        color: $primary-text-color;
-        text-transform: uppercase;
-        font-family: 'Times New Roman', serif;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 1.16;
-        letter-spacing: 0.05em;
-
-        @media screen and (min-width:1024px) {
-            font-size: 36px;
-        }
-    }
-
-    &__text {
-        display: flex;
         width: 100%;
-        margin-bottom: 32px;
-
-        color: #5f5f5f;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 1.22;
-        letter-spacing: 0.02;
-
-        @media screen and (min-width: 414px) {
-            width: 258px;
-        }
-
+        padding: 32px 0px;
+        background-color: $primary-background-color;
+    
         @media screen and (min-width:1024px) {
-            margin-bottom: 176px;
-            font-size: 16px;
-            font-weight: 700;
-            width: 400px;
+            padding-top: 62px;
+            padding-bottom: 47px;
         }
-    }
-
-    &__container {
-
-        @media screen and (min-width:1024px) {
+    
+        @media screen and (min-width:1280px) {
+            padding-top: 72px;
+            padding-bottom: 47.59px;
+        }
+    
+        &__container-position {
+            position: relative;
+        }
+    
+        &__tagline {
             display: flex;
-            justify-content: space-between;
+            margin-bottom: 8px;
+    
+            color: $optional-text-color-under-logo;
+            font-family: 'Times New Roman', serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 1.15;
+    
+            @media screen and (min-width:1024px) {
+                margin-bottom: 4px;
+                font-size: 32px;
+            }
         }
-
-    }
-
-    &__swiper {
-        @media screen and (min-width:1024px) {
-            display: inline-block;
+    
+        &__logo {
+            display: block;
+            margin-bottom: 32px;
+    
+            color: $logo-black-color;
+            text-transform: uppercase;
+            font-family: 'Film P3', sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.075;
+            letter-spacing: 0.3em;
+    
+            @media screen and (min-width:1024px) {
+                font-size: 64px;
+                margin-bottom: 62px;
+            }
+    
+            @media screen and (min-width:1280px) {
+                margin-bottom: 72px;
+            }
+        }
+    
+        &__title {
+            display: flex;
+            margin-bottom: 12px;
+    
+            color: $primary-text-color;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1.16;
+            letter-spacing: 0.05em;
+    
+            @media screen and (min-width:1024px) {
+                font-size: 36px;
+                margin-bottom: 16px;
+            }
+    
+            @media screen and (min-width:1280px) {
+                margin-bottom: 24px;
+            }
+        }
+    
+        &__text {
+            display: flex;
+            width: 100%;
+            margin-bottom: 32px;
+    
+            color: #5f5f5f;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 1.22;
+            letter-spacing: 0.02;
+    
+            @media screen and (min-width: 414px) {
+                width: 258px;
+            }
+    
+            @media screen and (min-width:1024px) {
+                margin-bottom: 176px;
+                font-size: 16px;
+                font-weight: 700;
+                width: 400px;
+            }
+    
+            @media screen and (min-width:1280px) {
+                margin-bottom: 188px;
+            }
+        }
+    
+        &__container {
+    
+            @media screen and (min-width:1024px) {
+                display: flex;
+                justify-content: space-between;
+            }
+    
+        }
+    
+        &__swiper {
+            @media screen and (min-width:1024px) {
+                display: inline-block;
+            }
+        }
+    
+        &__swiper-image {
+            @media screen and (min-width:1024px) {
+                display: inline-flex;
+                gap: 40px;
+            }
+        }
+    
+        &__svg {
+            margin-bottom: 27.59px;
+            margin-left: 1.18px;
+            display: flex;
+            gap: 33.92px;
+    
+            @media screen and (min-width:1024px) {
+                justify-content: end;
+                margin-bottom: 0px;
+            }
+        }
+    
+    
+    
+        &__svg-arrow {
+            fill: $fill-black-icons;
+            transition-property: fill;
+            transition-duration: 250ms;
+            transition-timing-function: $timing-function
+        }
+    
+        &__svg-arrow:focus,
+        &__svg-arrow:hover {
+            fill: $fill-yellow-icons;
         }
     }
-
-    &__swiper-image {
-        @media screen and (min-width:1024px) {
-            display: inline-flex;
-            gap: 40px;
-        }
-    }
-
-    &__svg {
-        margin-bottom: 27.59px;
-        margin-left: 1.18px;
-
-        @media screen and (min-width:1024px) {
-            margin-left: 0px;
-            margin-bottom: 0px;
-            gap: 33.92px
-        }
-    }
-
-
-
-    &__svg-arrow {
-        display: inline-block;
-        margin-right: 33.92px;
-        fill: $fill-black-icons;
-        transition-property: fill;
-        transition-duration: 250ms;
-        transition-timing-function: $timing-function
-    }
-
-    &__svg-arrow:focus,
-    &__svg-arrow:hover {
-        fill: $fill-yellow-icons;
-    }
-}

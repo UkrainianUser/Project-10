@@ -8,6 +8,11 @@
             padding-bottom: 47px;
         }
 
+    @media screen and (min-width:1280px) {
+            padding-top: 72px;
+            padding-bottom: 47.59px;
+        }
+
     &__container-position {
             position: relative;
         }
@@ -44,6 +49,10 @@
                 font-size: 64px;
                 margin-bottom: 62px;
             }
+        
+        @media screen and (min-width:1280px) {
+            margin-bottom: 72px;
+        }
     }
 
     &__title {
@@ -60,7 +69,12 @@
 
         @media screen and (min-width:1024px) {
                 font-size: 36px;
+                margin-bottom: 16px;
             }
+
+        @media screen and (min-width:1280px) {
+            margin-bottom: 24px;
+        }
     }
 
     &__text {
@@ -85,6 +99,10 @@
                 font-weight: 700;
                 width: 400px;   
             }
+
+        @media screen and (min-width:1280px) {
+            margin-bottom: 188px;
+        }
     }
     
     &__container {
@@ -112,19 +130,18 @@
     &__svg {
         margin-bottom: 27.59px;
         margin-left: 1.18px;
+        display: flex;
+        gap: 33.92px;
 
         @media screen and (min-width:1024px) {
-                margin-left: 0px;
+                justify-content: end;
                 margin-bottom: 0px;
-                gap: 33.92px
             }
     }
 
     
 
     &__svg-arrow {
-        display: inline-block;
-        margin-right: 33.92px;
         fill: $fill-black-icons;
         transition-property: fill;
         transition-duration: 250ms;

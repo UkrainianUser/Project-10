@@ -18,7 +18,6 @@
 
     @media screen and (min-width: 1024px) {
         max-width: 1024px;
-        // height: 620px;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65),
         rgba(0, 0, 0, 0.65)), url("../images/details-restoran/restoran-tablet.jpg");
 
@@ -67,10 +66,10 @@
     letter-spacing: 0.3em;
 
     color: $white-text-color;
+
     @media screen and (min-width: 1024px) {
         margin-bottom: 16px;
         font-size: 64px;
-   
     }
 
 }
@@ -84,8 +83,6 @@
     letter-spacing: 0.02em;
     color: $white-text-color;
 
-    
-
     @media screen and (min-width: 1024px) {
         margin-bottom: 8px;
         font-size: 24px; 
@@ -93,7 +90,6 @@
 }
 
 .details__text {
-    width: 238px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -104,24 +100,34 @@
     color: #bababa;
 
     @media screen and (min-width: 1024px) {
-        width: 550px;
         font-size: 16px; 
+    }
+
+}
+.details__text--restoran {
+    width: 259px;
+
+    @media screen and (min-width: 1024px) {
+        width: 610px;
     }
 }
 .details__wrapper {
     @media screen and (min-width: 1024px) {
         display: flex;
         gap: 29px;
-        flex-direction: row-reverse;
-        justify-content: start;
-
     }
+
     @media screen and (min-width: 1280px) {
         gap: 32px;
     }
-    
 }
 
+.details__wrapper--restoran {
+    @media screen and (min-width: 1024px) {
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+}
 .slider__container {
     padding-left: 40px;
     @media screen and (min-width: 1024px) {
@@ -155,16 +161,9 @@
     background-color: #bababa;
     border-radius: 2px;
 }
-.details-image--tablet {
+.details-image--swiper {
     display: none;
     @media screen and (min-width: 1024px) {
-        display: block;
-    }
-
-}
-.details-image--desktop {
-    display: none;
-    @media screen and (min-width: 1280px) {
         display: block;
     }
 
@@ -202,14 +201,19 @@
     padding-bottom: 40px;
 
     @media screen and (min-width: 1024px) {
-        padding: 0 0 100px 47px;
+        padding-bottom: 100px;
         justify-content: flex-end;
+    }
+}
+.button__container--restoran {
+
+    @media screen and (min-width: 1024px) {
+        padding-left: 47px;
     }
     @media screen and (min-width: 1280px) {
         padding-left: 85px;
 
     }
-
 }
 .details__button {
     display: flex;

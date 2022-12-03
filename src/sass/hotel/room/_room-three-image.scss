@@ -1,7 +1,4 @@
 .room-three-image {
-    @media screen and (min-width:1024px) {
-    display: inline;
-    }
 
     &__base {
         margin-bottom: 32px;
@@ -12,6 +9,13 @@
                 top: -96px;
                 left: 0px;
             }
+
+        @media screen and (min-width:1280px) {
+            display: flex;
+            position: absolute;
+            top: -106px;
+            left: 82px;
+        }
     }
 
     &__base--three {

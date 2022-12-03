@@ -1,5 +1,13 @@
 .room-button {
+
+    @media screen and (min-width:1024px) {
+            display: inline-block;
+            padding-top: 39px;
+        }
+
+    &__button {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 48px;
     align-items: center;
@@ -32,4 +40,5 @@
         @media screen and (min-width: 414px) {
             width: 236px;
         }
+            }
 }

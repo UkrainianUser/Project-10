@@ -3,6 +3,13 @@
         display: flex;
         margin-bottom: 32px;
         margin-left: auto;
+
+        @media screen and (min-width:1024px) {
+                display: flex;
+                position: absolute;
+                top: -94px;
+                right: 47px;
+            }
     }
 
     &__base--three {
@@ -13,9 +20,19 @@
         margin-bottom: 27.59px;
         margin-left: auto;
         margin-right: 115px;
+
+        @media screen and (min-width:1024px) {
+            display: inline-block;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
     }
 
         &__swipe--none {
             display: none;
+
+            @media screen and (min-width:1024px) {
+                display: inline-block;
+            }
         }
 }

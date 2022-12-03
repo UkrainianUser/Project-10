@@ -1,80 +1,138 @@
 <section class="room-three">
   <div class="container">
-    <span class="room-three__tagline">Amet minim mollit non</span>
-    <p class="room-three__logo">Mimiho</p>
-    <h2 class="room-three__title">Трьохмісний номер</h2>
-    <p class="room-three__text">
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-      Velit officia consequat duis enim velit mollit. Exercitation veniam
-      consequat sunt nostrud amet.
-    </p>
-    <picture class="room-three-image">
-      <source
-        srcset="
-          ./images/hotel-room2/apartment.jpg 1x,
-          ./images/hotel-room2/apartment@2x.jpg 2x
-        "
-        type="image/jpeg"
-      />
-
-      <img
-        class="room-three-image__base"
-        class="room-picture"
-        src="./images/hotel-room2/apartment.jpg"
-        alt="apartment"
-        width="246"
-        height="322"
-      />
-    </picture>
-    <picture lass="room-three-image">
-      <source
-        srcset="
-          ./images/hotel-room2/bathroom.jpg 1x,
-          ./images/hotel-room2/bathroom@2x.jpg 2x
-        "
-        type="image/jpeg"
-      />
-      <img
-        class="room-three-image__swipe"
-        src="./images/hotel-room2/bathroom.jpg"
-        alt="bathroom"
-        width="194"
-        height="194"
-      />
-    </picture lass="room-image">
-    <picture>
-      <source
-        srcset="
-          ./images/hotel-room2/cup.jpg 1x,
-          ./images/hotel-room2/cup@2x.jpg 2x
-        "
-        type="image/jpeg"
-      />
-      <img
-        class="rroom-three-image__swipe room-three-image__swipe--none"
-        src="./images/hotel-room2/cup.jpg"
-        alt="cup"
-        width="194"
-        height="194"
-      />
-    </picture>
-    <div class="room-three__svg">
-      <a href="#">
-        <svg class="room-three__svg-arrow" width="29.91" height="16.83">
-          <use href="./svg/icon.svg#icon-arrow-right-new"></use>
-        </svg>
-      </a>
-      <a href="#">
-        <svg class="room-three__svg-arrow" width="29.91" height="16.83">
-          <use href="./svg/icon.svg#icon-arrow-left-new"></use>
-        </svg>
-      </a>
+    <div class="room-three__container-position">
+      <span class="room-three__tagline">Amet minim mollit non</span>
+      <p class="room-three__logo">Mimiho</p>
+      <h2 class="room-three__title">Трьохмісний номер</h2>
+      <p class="room-three__text">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+      <picture class="room-three-image">
+        <source
+          srcset="
+            ./images/hotel-room2/apartment.jpg    1x,
+            ./images/hotel-room2/apartment@2x.jpg 2x
+          "
+          type="image/jpeg"
+          media="(max-width: 1023px)"
+        />
+        <source
+          srcset="
+            ./images/hotel-room2/apartment-tablet.jpg    1x,
+            ./images/hotel-room2/apartment-tablet@2x.jpg 2x
+          "
+          type="image/jpeg"
+          media="(min-width: 1024px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/hotel-room2/apartment-desktop.jpg    1x,
+            ./images/hotel-room2/apartment-desktop@2x.jpg 2x
+          "
+          type="image/jpeg"
+          media="(min-width: 1280px)"
+        />
+        <img
+          class="room-three-image__base"
+          class="room-picture"
+          src="./images/hotel-room2/apartment.jpg"
+          alt="апартаменти"
+        />
+      </picture>
+      <div class="room-three__container">
+        <div class="room-three__swiper">
+          <div class="room-three__swiper-image">
+            <picture lass="room-three-image">
+              <source
+                srcset="
+                  ./images/hotel-room2/bathroom.jpg    1x,
+                  ./images/hotel-room2/bathroom@2x.jpg 2x
+                "
+                type="image/jpeg"
+                media="(max-width: 1023px)"
+              />
+              <source
+                srcset="
+                  ./images/hotel-room2/bathroom-tablet.jpg    1x,
+                  ./images/hotel-room2/bathroom-tablet@2x.jpg 2x
+                "
+                type="image/jpeg"
+                media="(min-width: 1024px) and (max-width: 1279px)"
+              />
+              <source
+                srcset="
+                  ./images/hotel-room2/bathroom-desktop.jpg    1x,
+                  ./images/hotel-room2/bathroom-desktop@2x.jpg 2x
+                "
+                type="image/jpeg"
+                media="(min-width: 1280px)"
+              />
+              <img
+                class="room-three-image__swipe"
+                src="./images/hotel-room2/bathroom.jpg"
+                alt="ванна кімната"
+              />
+            </picture>
+            <picture class="room-three-image">
+              <source
+                srcset="
+                  ./images/hotel-room2/cup.jpg    1x,
+                  ./images/hotel-room2/cup@2x.jpg 2x
+                "
+                type="image/jpeg"
+                media="(max-width: 1023px)"
+              />
+              <source
+                srcset="
+                  ./images/hotel-room2/cup-tablet.jpg    1x,
+                  ./images/hotel-room2/cup-tablet@2x.jpg 2x
+                "
+                type="image/jpeg"
+                media="(min-width: 1024px) and (max-width: 1279px)"
+              />
+              <source
+                srcset="
+                  ./images/hotel-room2/cup-desktop.jpg    1x,
+                  ./images/hotel-room2/cup-desktop@2x.jpg 2x
+                "
+                type="image/jpeg"
+                media="(min-width: 1280px)"
+              />
+              <img
+                class="room-three-image__swipe room-three-image__swipe--none"
+                src="./images/hotel-room2/cup.jpg"
+                alt="чашка"
+              />
+            </picture>
+          </div>
+          <div class="room-three__svg">
+            <a href="#">
+              <a href="#">
+                <svg class="room-three__svg-arrow" width="29.91" height="16.83">
+                  <use href="./svg/icon.svg#icon-arrow-left-new"></use>
+                </svg>
+              </a>
+              <svg class="room-three__svg-arrow" width="29.91" height="16.83">
+                <use href="./svg/icon.svg#icon-arrow-right-new"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="room-button">
+          <a href="./room.html">
+            <button class="room-button__button" type="button">
+              Детальніше
+            </button>
+          </a>
+          <a href="#">
+            <button class="room-button__button" type="button">
+              Переглянути ціни
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
-    <a href="./room.html">
-      <button class="room-button" type="button">Детальніше</button>
-    </a>
-    <a href="#">
-      <button class="room-button" type="button">Переглянути ціни</button>
-    </a>
   </div>
 </section>

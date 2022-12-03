@@ -1,7 +1,8 @@
 .room-image {
     &__base {
+        display: flex;
         margin-bottom: 32px;
-        margin-left: 140px;
+        margin-left: auto;
     }
 
     &__base--three {
@@ -10,7 +11,8 @@
 
     &__swipe {
         margin-bottom: 27.59px;
-        margin-left: 75px;
+        margin-left: auto;
+        margin-right: 115px;
     }
 
         &__swipe--none {

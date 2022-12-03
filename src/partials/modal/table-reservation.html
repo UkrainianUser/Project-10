@@ -1,10 +1,13 @@
+<!-- Модальне вікно для замовлення столиків -->
 <section class="table-reservation">
-  <h2 class="table-reservation__title visually-hidden">ЗАБРОНЮВАТИ СТОЛИК</h2>
+ 
+  <div class="backdrop is-hidden" data-modal-table>
+    <h2 class="table-reservation__title visually-hidden">ЗАБРОНЮВАТИ СТОЛИК</h2>
 
   <!-- Модальне вікно для замовлення столиків -->
-  <div class="backdrop is-hidden" data-modal>
+  <!-- <div class="backdrop is-hidden" data-modal-table> -->
     <div class="modal">
-      <button class="modal__btn-close" data-modal-close>
+      <button class="modal__btn-close" data-modal-close-table>
         <svg class="modal__btn-close-icon" width="24px" height="24px">
           <use href="././svg/icon.svg#icon-close"></use>
         </svg>
@@ -62,9 +65,7 @@
               <option value="Saturday">Субота</option>
               <option value="Sunday">Неділя</option>
             </select>
-            <span class="modal__form-title">
-              Столик на яку кількість осіб?
-            </span>
+            <span class="modal__form-title"> На яку дату бронювати? </span>
           </label>
         </div>
 
@@ -72,6 +73,4 @@
       </form>
     </div>
   </div>
-
-  <script src="././js/modal.js"></script>
 </section>

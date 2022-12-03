@@ -1,0 +1,309 @@
+
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@font-face {
+  font-family: "Times New Roman";
+  src: url("../fonts/ofont.ru_Times New Roman.eot");
+  src: local("☺"), url("../fonts/ofont.ru_Times New Roman.woff") format("woff"), url("../fonts/ofont.ru_Times New Roman.ttf") format("truetype"), url("../fonts/ofont.ru_Times New Roman.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Times New Roman";
+  src: url("../fonts/times-new-roman-gras.eot");
+  src: local("☺"), url("../fonts/times-new-roman-gras.woff") format("woff"), url("../fonts/times-new-roman-gras.ttf") format("truetype"), url("../fonts/times-new-roman-gras.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Film P3";
+  src: url("../fonts/FontsFree-Net-FilmP3Bold.eot");
+  src: local("☺"), url("../fonts/FontsFree-Net-FilmP3Bold.woff") format("woff"), url("../fonts/FontsFree-Net-FilmP3Bold.ttf") format("truetype"), url("../fonts/FontsFree-Net-FilmP3Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-VariableFont_wght.eot");
+  src: local("☺"), url("../fonts/Montserrat-VariableFont_wght.woff") format("woff"), url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype"), url("../fonts/Montserrat-VariableFont_wght.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-alternates-medium.eot");
+  src: local("☺"), url("../fonts/montserrat-alternates-medium.woff") format("woff"), url("../fonts/montserrat-alternates-medium.ttf") format("truetype"), url("../fonts/montserrat-alternates-medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-alternates-semibold.eot");
+  src: local("☺"), url("../fonts/montserrat-alternates-semibold.woff") format("woff"), url("../fonts/montserrat-alternates-semibold.ttf") format("truetype"), url("../fonts/montserrat-alternates-semibold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-alternates-bold.eot");
+  src: local("☺"), url("../fonts/montserrat-alternates-bold.woff") format("woff"), url("../fonts/montserrat-alternates-bold.ttf") format("truetype"), url("../fonts/montserrat-alternates-bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+}
+body {
+  font-family: "Montserrat";
+  background-color: #fffdee;
+  color: #000000;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media screen and (min-width: 414px) {
+  .container {
+    width: 414px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1140px;
+    padding: 0 15px;
+  }
+
+
+}
+
+.button {
+  min-width: 238px;
+  height: 48px;
+  padding: 15px 24px 13px 24px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: #f3c653;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero__btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.hero__btn--first {
+  margin-bottom: 24px;
+}
+
+.hero__btn--second {
+  margin-bottom: 58px;
+}
+
+.hero {
+  position: relative;
+  background-color: #2f303a;
+  text-align: center;
+}
+
+.hero__socials {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero__socials-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.hero__title {
+  padding-top: 181px;
+  font-family: "Film P3", monospace;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero__subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero__subtitle-two {
+  margin-bottom: 113px;
+  font-family: "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero__link {
+  position: absolute;
+  top: 64px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 6px 9px 6px;
+  min-width: 210px;
+  height: 47px;
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  z-index: 1;
+  color: #E5E5E5;
+}
+
+.hero__address {
+  min-width: 179px;
+  height: 30px;
+}
+
+.hero__icon {
+  fill: rgba(243, 198, 83, 0.7);
+}
+
+.hotel-hero__overlay {
+  max-width: 414px;
+  min-height: 740px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/hero-images/hotel-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hotel-hero__title {
+  margin-bottom: 32px;
+}
+
+.hotel-hero__subtitle {
+  margin-bottom: 178px;
+}
+
+.restaurant-hero__overlay {
+  max-width: 414px;
+  min-height: 740px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/hero-images/restaurant-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.restaurant-hero__title {
+  margin-bottom: 20px;
+}
+
+.restauraunt-hero__subtitle {
+  margin-bottom: 44px;
+}
+
+/* slider */
+.image-slider__image {
+  text-align: center;
+}
+
+.image-slider__image img {
+  max-width: 100%;
+}
+
+/* .image-slider .swiper-slide{
+	width: auto;
+} */
+/* стрілки */
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+  content: "";
+  color: #000;
+  font-size: 60px;
+}
+
+.main-hero__overlay {
+  max-width: 414px;
+  min-height: 740px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/hero-images/main-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-hero__title {
+  margin-bottom: 24px;
+}
+
+.main-hero__subtitle {
+  margin-bottom: 40px;
+}
+
+.socials__link {
+  color: rgba(243, 198, 83, 0.7);
+}
+
+.socials__icon {
+  fill: currentColor;
+}/*# sourceMappingURL=main.css.map */

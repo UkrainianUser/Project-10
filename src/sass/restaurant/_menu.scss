@@ -1,0 +1,116 @@
+.menu {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	color: $primary-text-color;
+	background-color: $primary-background-color;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 1.2;
+
+	@media screen and (min-width: 1024px) {
+		padding-top: 58px;
+		padding-bottom: 40px;
+		background-color: $secondary-background-color;
+	}
+	@media screen and (min-width: 1280px) {
+		padding-bottom: 60px;
+	}
+}
+.menu__title {
+	margin-bottom: 32px;
+	font-family: 'Times New Roman', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1.15;
+}
+.table-container {
+	@media screen and (min-width: 1024px) {
+		display: flex;
+		column-gap: 88px;
+		justify-content: space-between;
+	}
+	@media screen and (min-width: 1280px) {
+		column-gap: 140px;
+	}
+}
+.table-container__left, .table-container__right {
+	@media screen and (min-width: 1024px) {
+		width: 50%;
+		padding: 0;
+	}
+}
+.menu__table {
+	width: 100%;
+	height: fit-content;
+	margin-bottom: 16px;
+}
+.menu__caption {
+	display: inline-block;
+	margin-bottom: 16px;
+	font-family: 'Times New Roman', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.15;
+}
+.menu__name {
+	display: inline-block;
+	min-width: 220px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.menu__portion {
+	text-align: right;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.menu__price {
+	text-align: right;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.menu__ingredients {
+	display: inline-block;
+	max-width: 220px;
+}
+.menu__button {
+	display: block;
+	min-width: 236px;
+	min-height: 49px;
+	padding: 15px 24px 14px;
+	margin-top: 32px;
+	margin-right: auto;
+	margin-left: auto;
+	color: $yellow-accent-color;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.25;
+	background: $restaurant-background-button-color;
+	border: 2px solid $primary-background-color;
+	border-radius: 25px;
+	transition:	background-color 250ms $timing-function, 
+	border-color 250ms $timing-function;
+
+	&:hover,
+	&:focus {
+		background-color: $hover-white-background-button-color;
+		border-color: $yellow-accent-color;
+	}
+
+	&:disabled {
+		background-color: $restaurant-background-button-color;
+	}
+
+	@media screen and (min-width: 1024px) {
+		margin-right: 0;
+	}
+}

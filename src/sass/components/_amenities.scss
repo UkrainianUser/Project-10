@@ -1,0 +1,107 @@
+.amenities-section {
+  padding: 32px 0;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  &__title {
+    font-family: Times New Roman, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.15;
+    color: $primary-text-color;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: $secondary-text-color;
+  }
+
+  &__subtitle {
+    font-family: Times New Roman, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    color: $primary-text-color;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: $room-page-background-button-color;
+    color: $white-text-color;
+    border: 1px solid $border-yellow-button-color;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 43px;
+    padding-right: 43px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    transition: color 250ms $timing-function,
+      background-color 250ms $timing-function;
+  }
+
+  &__button:hover,
+  &__button:focus {
+    background-color: $hover-yellow-background-button-color;
+    color: $room-page-background-button-color;
+  }
+
+  &__link {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: $brown-color;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    transition: color 250ms $timing-function, fill 250ms $timing-function;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: $hover-yellow-background-button-color;
+    fill: $hover-yellow-background-button-color;
+  }
+
+  &__icon {
+    fill: $fill-yellow-icons;
+    transition: fill 250ms $timing-function;
+  }
+  &__icon:hover,
+  &__icon:focus {
+    fill: $hover-yellow-background-button-color;
+  }
+}
+// .amenities-section__item {
+// }

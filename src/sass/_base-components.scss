@@ -29,9 +29,15 @@ img {
   height: auto;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: $primary-background-color;
+  color: $primary-text-color;
+}
+
 .container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
 
@@ -41,9 +47,12 @@ img {
 
   @media screen and (min-width: 1024px) {
     width: 1024px;
+    padding: 0 47px;
   }
 
   @media screen and (min-width: 1280px) {
     width: 1140px;
+    padding: 0 85px;
+
   }
 }

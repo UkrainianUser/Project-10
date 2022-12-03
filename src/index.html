@@ -3,12 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <title>Home page</title>
+    <link rel="stylesheet" href="./sass/main.scss" />
+    
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <include src="./partials/header-main.html"></include>
+    <include src="./partials/main-pages/main-hero.html"></include>
+    <include src="./partials/main-pages/restaurant-section.html"></include>
+    <include src="./partials/main-pages/detailes-restoran.html"></include>
+    <include src="./partials/main-pages/about-hotel-section.html"></include>
+    <include src="./partials/main-pages/details-hotel.html"></include>
+    <include src="./partials/main-pages/contact.html"></include>
+
+    <include src="./partials/modal/table-reservation.html"></include>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

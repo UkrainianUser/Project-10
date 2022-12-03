@@ -1,0 +1,19 @@
+.room-three-image {
+    &__base {
+        margin-bottom: 32px;
+    }
+
+    &__base--three {
+        margin-left: 0px;
+    }
+
+    &__swipe {
+        margin-bottom: 27.59px;
+        margin-left: auto;
+        margin-right: 75px;
+    }
+
+    &__swipe--none {
+        display: none;
+    }
+}

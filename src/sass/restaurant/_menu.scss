@@ -1,4 +1,5 @@
 .menu {
+	padding-top: 32px;
 	padding-bottom: 32px;
 	color: $primary-text-color;
 	background-color: $primary-background-color;
@@ -7,6 +8,15 @@
 	font-weight: 400;
 	font-size: 10px;
 	line-height: 1.2;
+
+	@media screen and (min-width: 1024px) {
+		padding-top: 58px;
+		padding-bottom: 40px;
+		background-color: $secondary-background-color;
+	}
+	@media screen and (min-width: 1280px) {
+		padding-bottom: 60px;
+	}
 }
 .menu__title {
 	margin-bottom: 32px;
@@ -22,10 +32,14 @@
 		column-gap: 88px;
 		justify-content: space-between;
 	}
+	@media screen and (min-width: 1280px) {
+		column-gap: 140px;
+	}
 }
 .table-container__left, .table-container__right {
 	@media screen and (min-width: 1024px) {
 		width: 50%;
+		padding: 0;
 	}
 }
 .menu__table {
@@ -51,12 +65,14 @@
 	letter-spacing: 0.02em;
 }
 .menu__portion {
+	text-align: right;
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 }
 .menu__price {
+	text-align: right;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.2;
@@ -92,5 +108,9 @@
 
 	&:disabled {
 		background-color: $restaurant-background-button-color;
+	}
+
+	@media screen and (min-width: 1024px) {
+		margin-right: 0;
 	}
 }

@@ -1,3 +1,6 @@
+
+import './js/modal.js';
+
 (() => {
     const refs = {
       openModalBtn: document.querySelector("[data-modal-open]"),
@@ -12,3 +15,4 @@
       refs.modal.classList.toggle("is-hidden");
     }
   })();
+

@@ -11,6 +11,10 @@
     }
 }
 
+.kitchen__position-container {
+    position: relative;
+}
+
 .kitchen__text {
     font-family: 'Times New Roman';
     font-weight: 400;
@@ -97,12 +101,13 @@
 
     @media (min-width: 1024px) {
         position: absolute;
-        right: 0;
-        top: -32px;
-        transform: translateX(-25%);
+        right: 65px;
+        top: -152px;
     }
+
         @media (min-width: 1280px) {
-            top: -33px;
+            top: -152;
+            right: 65px;
         }
 }
 
@@ -120,11 +125,11 @@
     @media (min-width: 1024px) {
         gap: 40px;
         justify-content: right;
-        transform: translateY(-30%);
+        margin-bottom: 39.59px;
     }
 
         @media (min-width: 1280px) {
-            transform: translateY(-75%);
+            margin-bottom: 47.59;
         }
 }
 
@@ -133,7 +138,8 @@
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
-    margin: 0 auto 20px;
+    margin-left: 69px;
+    margin-bottom: 27.59px;
 }
 
 .kitchen__foto-tkemali {
@@ -142,6 +148,12 @@
     @media (min-width: 1024px) {
         display: block;
     }
+}
+
+.kitchen__flex-svg {
+    display: flex;
+    gap: 33.92px;
+    justify-content: flex-end;
 }
 
 

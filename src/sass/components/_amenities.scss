@@ -1,11 +1,24 @@
 .amenities-section {
   padding: 32px 0;
+  background-color: $primary-background-color;
+
+  @include desktop {
+    background-image: $liner-gradient-details-tablet;
+  }
+
+  @include tablet {
+    padding-top: 48px;
+    padding-bottom: 40px;
+  }
 
   &__list {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 32px;
+
+    @include tablet {
+    }
   }
 
   &__title {
@@ -27,6 +40,64 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     color: $secondary-text-color;
+  }
+
+  &__first-text-wrapper {
+    @media (max-width: 1023px) {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    @include tablet {
+      display: flex;
+      flex-direction: row;
+      gap: 80px;
+    }
+
+    @include desktop {
+      gap: 159px;
+    }
+  }
+
+  &__second-text-wrapper {
+    @media (max-width: 1023px) {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    @include tablet {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+    }
+
+    @include desktop {
+      gap: 64px;
+    }
+  }
+
+  &__text--first-size {
+    @include tablet {
+      width: 757px;
+    }
+  }
+
+  &__text--second-size {
+    @include tablet {
+      width: 400px;
+    }
+  }
+
+  &__text--third-size {
+    @include tablet {
+      width: 450px;
+    }
+
+    @include desktop {
+      width: 495px;
+    }
   }
 
   &__subtitle {
@@ -51,8 +122,8 @@
     border-radius: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 43px;
-    padding-right: 43px;
+    padding-left: 42px;
+    padding-right: 42px;
     font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -64,6 +135,23 @@
     margin-bottom: 20px;
     transition: color 250ms $timing-function,
       background-color 250ms $timing-function;
+
+    @include tablet {
+      width: 434px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      padding-left: 37px;
+      padding-right: 37px;
+      margin-left: auto;
+      margin-bottom: 32px;
+      margin-top: 40px;
+      font-size: 24px;
+      line-height: 1.2;
+    }
+
+    @include desktop {
+      margin-right: 113px;
+    }
   }
 
   &__button:hover,
@@ -86,6 +174,15 @@
     justify-content: center;
     gap: 13px;
     transition: color 250ms $timing-function, fill 250ms $timing-function;
+
+    @include tablet {
+      justify-content: flex-end;
+      font-size: 20px;
+      line-height: 1.2;
+    }
+    @include desktop {
+      margin-right: 115px;
+    }
   }
 
   &__link:hover,
@@ -95,13 +192,6 @@
   }
 
   &__icon {
-    fill: $fill-yellow-icons;
-    transition: fill 250ms $timing-function;
-  }
-  &__icon:hover,
-  &__icon:focus {
-    fill: $hover-yellow-background-button-color;
+    fill: currentColor;
   }
 }
-// .amenities-section__item {
-// }

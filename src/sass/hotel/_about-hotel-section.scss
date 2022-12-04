@@ -13,7 +13,7 @@
         max-width: 1024px;
         background-image: $liner-gradient-main-tablet;
     }
-    
+
     @media screen and (min-width: 1280px) {
         padding-bottom: 50px;
         max-width: 1280px;
@@ -61,9 +61,6 @@
             color: $contacts-under-footer-color;
         }
     }
-
-
-    
 
     &__flex {
         display: flex;
@@ -139,11 +136,19 @@
             position: absolute;
             left: 112px;
             top: -24px;
+
+
+        }
+
+        @media (min-width: 1280px) {
+            left: 180px;
+
         
         }
         
         @media (min-width: 1280px) {
             left: 180px;     
+
         }
     }
 
@@ -156,15 +161,38 @@
 
 .swiper-about-hotel {
 
+    &__flex {
+        display: flex;
+        gap: 40px;
+        margin-bottom: 20px;
+
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 32px;
+        }
+        
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 40px;
+        }
+    }
+
 
     &__image {
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
+
+    }
+    
+    &__image--hidden {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        
+
         margin-bottom: 20px;
         margin-right: auto;
     }
 
     &__image--hidden {
+
         @media screen and (max-width: 1023px) {
             display: none;
         }
@@ -172,6 +200,11 @@
 
     &__svg {
         display: flex;
+
+        gap: 32px;
+    }
+    
+
         margin-left: auto;
         gap: 32px;
 
@@ -183,10 +216,19 @@
         transition: fill 250ms $timing-function;
 
     }
+    
+
+
+    }
+
 
     &__svg-arrow:focus,
     &__svg-arrow:hover {
         fill: $fill-yellow-icons;
     }
+
 }
+
+}
+
 

@@ -1,6 +1,5 @@
 <!-- Модальне вікно для бронювання номеру -->
-<section class="table-reservation">
-
+<section class="room-reservation">
   <div class="backdrop is-hidden" data-modal-room>
     <h2 class="table-reservation__title visually-hidden">ЗАБРОНЮВАТИ НОМЕР</h2>
     <div class="modal">
@@ -12,8 +11,8 @@
 
       <h3 class="modal__title">Забронювати номер</h3>
       <form class="modal__form">
-        <div class="box">
-          <label class="modal__form-label">
+        <div class="box room-box">
+          <label class="modal__form-label room-box__item">
             <input
               type="text"
               class="modal__form-input"
@@ -23,7 +22,7 @@
             <span class="modal__form-title">На кого забронювати столик?</span>
           </label>
 
-          <label class="modal__form-label">
+          <label class="modal__form-label room-box__item">
             <input
               type="tel"
               class="modal__form-input"
@@ -33,7 +32,7 @@
             <span class="modal__form-title">Номер телефону</span>
           </label>
 
-          <label class="modal__form-label">
+          <label class="modal__form-label room-box__item">
             <select class="modal__form-input" name="user-room">
               <option value="1">Двомісний</option>
               <option value="2" selected>Двомісний люкс</option>
@@ -42,7 +41,7 @@
             <span class="modal__form-title"> Категорія номеру </span>
           </label>
 
-          <label class="modal__form-label">
+          <label class="modal__form-label room-box__item">
             <select class="modal__form-input" name="user-amount-people">
               <option value="today" selected>Сьогодні</option>
               <option value="monday">Понеділок</option>
@@ -56,7 +55,7 @@
             <span class="modal__form-title"> Дата заїзду </span>
           </label>
 
-          <label class="modal__form-label">
+          <label class="modal__form-label room-box__item">
             <select class="modal__form-input" name="user-amount-people">
               <option value="today" selected>Сьогодні</option>
               <option value="monday">Понеділок</option>

@@ -1,6 +1,5 @@
 <!-- Модальне вікно цін наномер -->
-<section class="table-reservation">
-
+<section class="room-prices">
   <div class="backdrop is-hidden" data-modal-price>
     <h2 class="table-reservation__title visually-hidden">ЗАБРОНЮВАТИ НОМЕР</h2>
     <div class="modal">
@@ -22,27 +21,32 @@
             </span>
           </div>
 
-          <label class="modal__form-label">
-            <input
-              type="text"
-              class="modal__form-input"
-              name="user-name"
-              placeholder="1"
-            />
-            <span class="modal__form-title modal__form-title--room"
-              >Кількість ночей</span
-            >
-          </label>
+          <div class="box-price">
+            <label class="modal__form-label box-price__item">
+              <select class="modal__form-input" name="user-amount-people">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+              </select>
+              <span class="modal__form-title modal__form-title--room">
+                Кількість ночей
+              </span>
+            </label>
 
-          <label class="modal__form-label">
-            <input
-              type="tel"
-              class="modal__form-input"
-              name="user-phone"
-              placeholder="1000"
-            />
-            <span class="modal__form-title modal__form-title--room">грн</span>
-          </label>
+            <label class="modal__form-label box-price__item">
+              <input
+                type="tel"
+                class="modal__form-input"
+                name="user-phone"
+                placeholder="1000"
+              />
+              <span class="modal__form-title modal__form-title--room">грн</span>
+            </label>
+          </div>
         </div>
 
         <button type="submit" class="modal__btn">забронювати номер</button>

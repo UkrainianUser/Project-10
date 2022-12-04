@@ -200,24 +200,15 @@
 
     &__svg {
         display: flex;
-
         gap: 32px;
     }
-    
 
-        margin-left: auto;
-        gap: 32px;
 
-    }
 
     &__svg-arrow {
         display: inline-block;
         fill: $fill-black-icons;
         transition: fill 250ms $timing-function;
-
-    }
-    
-
 
     }
 
@@ -226,9 +217,6 @@
     &__svg-arrow:hover {
         fill: $fill-yellow-icons;
     }
-
-}
-
 }
 
 

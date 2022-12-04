@@ -1,35 +1,73 @@
 <section class="about-hotel">
   <div class="container">
     <h2 class="visually-hidden">About our restaurant</h2>
+    <span class="about-hotel__text">Amet minim mollit non</span>
+    <p class="about-hotel__logo">Mimiho</p>
+    <p class="about-hotel__description-first">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
 
-    <div class="about-hotel__thumb-first">
-      <span class="about-hotel__text">Amet minim mollit non</span>
-      <p class="about-hotel__logo">Mimiho</p>
-      <p class="about-hotel__description-first">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit. Exercitation
-        veniam consequat sunt nostrud amet.
-      </p>
+    <picture>
+      <source
+        srcset="
+          ./images/hotel/apartment-desktop.jpg    1x,
+          ./images/hotel/apartment-desktop@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./images/hotel/apartment-tablet.jpg    1x,
+          ./images/hotel/apartment-tablet@2x.jpg 2x
+        "
+        media="(min-width: 1024px) and (max-width: 1279px)"
+      />
+      <source
+        srcset="
+          ./images/hotel-room2/apartment.jpg    1x,
+          ./images/hotel-room2/apartment@2x.jpg 2x
+        "
+        media="(min-width: 414px) and (max-width: 1023px)"
+      />
+      <source
+        srcset="
+          ./images/hotel-room2/apartment.jpg    1x,
+          ./images/hotel-room2/apartment@2x.jpg 2x
+        "
+        media="(max-width: 413px)"
+      />
+      <img
+        class="about-hotel__image-first"
+        src="./images/hotel-room2/apartment.jpg"
+        alt="bed in the room"
+      />
+    </picture>
+
+    <div class="about-hotel__flex">
       <picture>
         <source
           srcset="
-            ./images/hotel-room2/apartment.jpg    1x,
-            ./images/hotel-room2/apartment@2x.jpg 2x
+            ./images/hotel/hotel-desktop.jpg    1x,
+            ./images/hotel/hotel-desktop@2x.jpg 2x
           "
-          type="image/jpg"
+          media="(min-width: 1280px)"
         />
-        <img
-          class="about-hotel__image-first"
-          src="./images/hotel-room2/apartment.jpg"
-          alt="bed in the room"
+        <source
+          srcset="
+            ./images/hotel/hotel-tablet.jpg    1x,
+            ./images/hotel/hotel-tablet@2x.jpg 2x
+          "
+          media="(min-width: 1024px) and (max-width: 1279px)"
         />
-      </picture>
-    </div>
-    <div class="about-hotel__thumb-second">
-      <picture>
         <source
           srcset="./images/hotel/hotel.jpg 1x, ./images/hotel/hotel@2x.jpg 2x"
-          type="image/jpg"
+          media="(min-width: 414px) and (max-width: 1023px)"
+        />
+        <source
+          srcset="./images/hotel/hotel.jpg 1x, ./images/hotel/hotel@2x.jpg 2x"
+          media="(max-width: 413px)"
         />
         <img
           class="about-hotel__image-second"
@@ -47,15 +85,71 @@
       <picture>
         <source
           srcset="
+            ./images/hotel/hotel-registration-desktop.jpg    1x,
+            ./images/hotel/hotel-registration-desktop@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./images/hotel/hotel-registration-tablet.jpg    1x,
+            ./images/hotel/hotel-registration-tablet@2x.jpg 2x
+          "
+          media="(min-width: 1024px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="
             ./images/hotel/hotel-registration.jpg    1x,
             ./images/hotel/hotel-registration@2x.jpg 2x
           "
-          type="image/jpg"
+          media="(min-width: 414px) and (max-width: 1023px)"
+        />
+        <source
+          srcset="
+            ./images/hotel/hotel-registration.jpg    1x,
+            ./images/hotel/hotel-registration@2x.jpg 2x
+          "
+          media="(max-width: 413px)"
         />
         <img
           class="swiper-about-hotel__image"
           src="./images/hotel/hotel-registration.jpg"
           alt="woman signing a document at the reception desk"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="
+            ./images/hotel/white-bed-decoration-desktop.jpg    1x,
+            ./images/hotel/white-bed-decoration-desktop@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./images/hotel/white-bed-decoration-tablet.jpg    1x,
+            ./images/hotel/white-bed-decoration-tablet@2x.jpg 2x
+          "
+          media="(min-width: 1024px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/hotel/white-bed-decoration.jpg    1x,
+            ./images/hotel/white-bed-decoration@2x.jpg 2x
+          "
+          media="(min-width: 414px) and (max-width: 1023px)"
+        />
+        <source
+          srcset="
+            ./images/hotel/white-bed-decoration.jpg    1x,
+            ./images/hotel/white-bed-decoration@2x.jpg 2x
+          "
+          media="(max-width: 413px)"
+        />
+        <img
+          class="swiper-about-hotel__image--hidden"
+          src="./images/hotel/white-bed-decoration.jpg"
+          alt="white towels on the bed"
         />
       </picture>
       <div class="swiper-about-hotel__svg">

@@ -8,11 +8,21 @@
     background-image: $liner-gradient-main-mobile;
 
 
+
     @media screen and (min-width: 1024px) {
         padding-top: 120px;
         padding-bottom: 32px;
         max-width: 1024px;
         background-image: $liner-gradient-main-tablet;
+
+    
+
+    @media screen and (min-width: 1024px) {
+       padding-top: 120px; 
+       padding-bottom: 32px;
+       max-width: 1024px;
+       background-image: $liner-gradient-main-tablet;
+
     }
 
     @media screen and (min-width: 1280px) {
@@ -67,8 +77,6 @@
 
         @media screen and (min-width: 1024px) {
             gap: 48px;
-
-            
 
         }
 
@@ -130,7 +138,13 @@
             left: 512px;
             top: -32px;
 
+
         }
+
+
+            
+        }
+        
 
         @media (min-width: 1280px) {
             left: 640px;
@@ -173,12 +187,18 @@
     }
 
     &__image--hidden {
+
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
 
         @media screen and (max-width: 1023px) {
             display: none;
         }
+
+        @media screen and (max-width: 1023px) {
+            display: none;
+        }  
+
     }
 
     &__svg {

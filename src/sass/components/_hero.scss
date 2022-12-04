@@ -9,16 +9,37 @@
 		justify-content: end;
 		margin-bottom: 28px;
 	}
+}
 
-	@media screen and (min-width: 1280px) {
-		
+.hero {
+	background-color: #2f303a;
+	text-align: center;
+	padding-bottom: 21px;
+
+	@media screen and (min-width: 1024px) {
+		padding-bottom: 16px;
 	}
 }
+
 .hero__btn {
 	display: block;
 	margin: 0 auto;
+
+	transition:	background-color 250ms $timing-function, 
+	border-color 250ms $timing-function;
+
 	@media screen and (min-width: 1024px) {
 		margin: 0;
+	}
+
+	&:hover,
+	&:focus {
+		background-color: $hover-white-background-button-color;
+		border-color: $yellow-accent-color;
+	}
+
+	&:disabled {
+		background-color: $restaurant-background-button-color;
 	}
 }
 
@@ -33,16 +54,6 @@
 	margin-bottom: 58px;
 	@media screen and (min-width: 1024px) {
 		margin-bottom: 0;
-	}
-}
-
-.hero {
-	background-color: #2f303a;
-	text-align: center;
-	padding-bottom: 21px;
-
-	@media screen and (min-width: 1024px) {
-		padding-bottom: 16px;
 	}
 }
 
@@ -127,12 +138,12 @@
 	@media screen and (min-width: 1024px) {
 		top: auto;
 		right: auto;
-		bottom: 64px;
+		bottom: 77px;
 		left: 48px;
 	}
 
 	@media screen and (min-width: 1280px) {
-		bottom: 0;
+		bottom: 51px;
 		left: auto;
 	}
 }

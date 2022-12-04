@@ -2,37 +2,80 @@
   <div class="container">
     <h2 class="visually-hidden">About our restaurant</h2>
 
-    <div class="restaurant__thumb-first">
-      <span class="restaurant__text">Amet minim mollit non</span>
-      <p class="restaurant__logo">Mimiho</p>
-      <p class="restaurant__description-first">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit. Exercitation
-        veniam consequat sunt nostrud amet.
-      </p>
+    <span class="restaurant__text">Amet minim mollit non</span>
+    <p class="restaurant__logo">Mimiho</p>
+    <p class="restaurant__description-first">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+
+    <picture>
+      <source
+        srcset="
+          ./images/restaurant/restaurant-interior-desktop.jpg    1x,
+          ./images/restaurant/restaurant-interior-desktop@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./images/restaurant/restaurant-interior-tablet.jpg    1x,
+          ./images/restaurant/restaurant-interior-tablet@2x.jpg 2x
+        "
+        media="(min-width: 1024px) and (max-width: 1279px)"
+      />
+      <source
+        srcset="
+          ./images/restaurant/restaurant-interior.jpg    1x,
+          ./images/restaurant/restaurant-interior@2x.jpg 2x
+        "
+        media="(min-width: 414px) and (max-width: 1023px)"
+      />
+      <source
+        srcset="
+          ./images/restaurant/restaurant-interior.jpg    1x,
+          ./images/restaurant/restaurant-interior@2x.jpg 2x
+        "
+        media="(max-width: 413px)"
+      />
+
+      <img
+        class="restaurant__image-first"
+        src="./images/restaurant/restaurant-interior.jpg"
+        alt="tables in restaurant"
+      />
+    </picture>
+
+    <div class="restaurant__flex">
       <picture>
         <source
           srcset="
-            ./images/restaurant/restaurant-interior.jpg    1x,
-            ./images/restaurant/restaurant-interior@2x.jpg 2x
+            ./images/restaurant/pexels-oruri-jacome-desktop.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome-desktop@2x.jpg 2x
           "
-          type="image/jpg"
+          media="(min-width: 1280px)"
         />
-        <img
-          class="restaurant__image-first"
-          src="./images/restaurant/restaurant-interior.jpg"
-          alt="tables in restaurant"
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome-tablet.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome-tablet@2x.jpg 2x
+          "
+          media="(min-width: 1024px) and (max-width: 1279px)"
         />
-      </picture>
-    </div>
-    <div class="restaurant__thumb-second">
-      <picture>
         <source
           srcset="
             ./images/restaurant/pexels-oruri-jacome.jpg    1x,
             ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
           "
-          type="image/jpg"
+          media="(min-width: 414px) and (max-width: 1023px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
+          "
+          media="(max-width: 413px)"
         />
         <img
           class="restaurant__image-second"
@@ -46,29 +89,95 @@
         veniam consequat sunt nostrud amet.
       </p>
     </div>
-    <div class="swiper">
-      <picture>
-        <source
-          srcset="
-            ./images/restaurant/helena-lopes.jpg    1x,
-            ./images/restaurant/helena-lopes@2x.jpg 2x
-          "
-          type="image/jpg"
-        />
-        <img
-          class="swiper__image"
-          src="./images/restaurant/helena-lopes.jpg"
-          alt="tables and chairs in a restaurant"
-        />
-      </picture>
-      <div class="swiper__svg">
+    <div class="swiper-restaurant">
+      <div class="swiper-restaurant__flex">
+        <picture>
+          <source
+            srcset="
+              ./images/restaurant/helena-lopes-desktop.jpg    1x,
+              ./images/restaurant/helena-lopes-desktop@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./images/restaurant/helena-lopes-tablet.jpg    1x,
+              ./images/restaurant/helena-lopes-tablet@2x.jpg 2x
+            "
+            media="(min-width: 1024px) and (max-width: 1279px)"
+          />
+          <source
+            srcset="
+              ./images/restaurant/helena-lopes.jpg    1x,
+              ./images/restaurant/helena-lopes@2x.jpg 2x
+            "
+            media="(min-width: 414px) and (max-width: 1023px)"
+          />
+          <source
+            srcset="
+              ./images/restaurant/helena-lopes.jpg    1x,
+              ./images/restaurant/helena-lopes@2x.jpg 2x
+            "
+            media="(max-width: 413px)"
+          />
+          <img
+            class="swiper-restaurant__image"
+            src="./images/restaurant/helena-lopes.jpg"
+            alt="glasses on the table"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="
+              ./images/restaurant/mat-brown-desktop.jpg     1x,
+              ./images/restaurant//mat-brown-desktop@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./images/restaurant/mat-brown-tablet.jpg     1x,
+              ./images/restaurant//mat-brown-tablet@2x.jpg 2x
+            "
+            media="(min-width: 1024px) and (max-width: 1279px)"
+          />
+          <source
+            srcset="
+              ./images/restaurant/mat-brown.jpg     1x,
+              ./images/restaurant//mat-brown@2x.jpg 2x
+            "
+            media="(min-width: 414px) and (max-width: 1023px)"
+          />
+          <source
+            srcset="
+              ./images/restaurant/mat-brown.jpg     1x,
+              ./images/restaurant//mat-brown@2x.jpg 2x
+            "
+            media="(max-width: 413px)"
+          />
+          <img
+            class="swiper-restaurant__image--hidden"
+            src="./images/restaurant//mat-brown.jpg"
+            alt="dishes on the table"
+          />
+        </picture>
+      </div>
+      <div class="swiper-restaurant__svg">
         <a href="#">
-          <svg class="swiper__svg-arrow" width="29.91" height="16.83">
+          <svg
+            class="swiper-restaurant__svg-arrow"
+            width="29.91"
+            height="16.83"
+          >
             <use href="./svg/icon.svg#icon-arrow-left-new"></use>
           </svg>
         </a>
         <a href="#">
-          <svg class="swiper__svg-arrow" width="29.91" height="16.83">
+          <svg
+            class="swiper-restaurant__svg-arrow"
+            width="29.91"
+            height="16.83"
+          >
             <use href="./svg/icon.svg#icon-arrow-right-new"></use>
           </svg>
         </a>

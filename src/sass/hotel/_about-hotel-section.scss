@@ -1,12 +1,11 @@
-.restaurant {
+.about-hotel {
     position: relative;
     max-width: 414px;
     margin: 0 auto;
-    padding-top: 16px;
+    padding-top: 18px;
     padding-bottom: 20px;
     background-color: $primary-background-color;
     background-image: $liner-gradient-main-mobile;
-
 
     @media screen and (min-width: 1024px) {
         padding-top: 120px;
@@ -21,8 +20,11 @@
     }
 
     &__text {
+        display: flex;
+        flex-direction: row-reverse;
+
         color: $optional-text-color-under-logo;
-        margin-bottom: 12px;
+        margin-bottom: 6px;
         font-family: 'Times New Roman', serif;
         font-style: normal;
         font-weight: 400;
@@ -37,8 +39,9 @@
     }
 
     &__logo {
-        display: block;
-        margin-bottom: 12px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 16px;
 
         color: $logo-black-color;
         text-transform: uppercase;
@@ -58,28 +61,27 @@
             color: $contacts-under-footer-color;
         }
     }
-
-
     &__flex {
         display: flex;
+        flex-direction: row-reverse;
         align-items: center;
-        gap: 20px;
+        gap: 21px;
 
         @media screen and (min-width: 1024px) {
             gap: 48px;
-
-            
-
         }
 
-        @media screen and (min-width: 1280px) {
-            gap: 32px;
+        @media screen and (min-width: 1024px) {
+            gap: 45px;
         }
     }
 
     &__description-first {
-        max-width: 258px;
+        display: flex;
+
+        max-width: 242px;
         margin-bottom: 28px;
+        margin-left: auto;
         color: $third-text-color;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
@@ -95,7 +97,7 @@
         }
 
         @media screen and (min-width: 1280px) {
-            max-width: 432px;
+            max-width: 488px;
             margin-bottom: 162px;
         }
     }
@@ -117,24 +119,27 @@
             line-height: 1.25;
         }
 
+        @media screen and (min-width: 1280px) {
+            max-width: 311px;
+        }
     }
 
     &__image-first {
+
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
-        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 32px;
 
         @media (min-width: 1024px) {
             position: absolute;
-            left: 512px;
-            top: -32px;
+            left: 112px;
+            top: -24px;
 
         }
 
         @media (min-width: 1280px) {
-            left: 640px;
-            top: -33px;
+            left: 180px;
         }
     }
 
@@ -142,40 +147,33 @@
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
         margin-bottom: 32px;
-
     }
-
 }
 
-.swiper-restaurant {
-   
-
+.swiper-about-hotel {
     &__flex {
         display: flex;
-        justify-content: right;
         gap: 40px;
         margin-bottom: 20px;
 
         @media screen and (min-width: 1024px) {
             margin-bottom: 32px;
         }
-
-        @media screen and (min-width: 1280px) {
-            margin-bottom: 36px;
+        
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 40px;
         }
     }
 
     &__image {
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
-        margin-left: auto;
-
     }
-
+    
     &__image--hidden {
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
-
+        
         @media screen and (max-width: 1023px) {
             display: none;
         }
@@ -183,25 +181,17 @@
 
     &__svg {
         display: flex;
-        justify-content: flex-end;
-        margin-left: auto;
         gap: 32px;
-
     }
-
+    
     &__svg-arrow {
         display: inline-block;
         fill: $fill-black-icons;
         transition: fill 250ms $timing-function;
-
     }
-
+    
     &__svg-arrow:focus,
     &__svg-arrow:hover {
         fill: $fill-yellow-icons;
     }
 }
-
-
-
-

@@ -73,17 +73,7 @@
 .details__title--hotel {
     text-align: end;
 }
-.details__text--hotel {
-    width: 243px;
-    
-    @media screen and (min-width: 1024px) {
-        width: 549px;
-    }
 
-    @media screen and (min-width: 1280px) {
-        width: 595px;
-    }
-}
 .details__wrapper--hotel{
     @media screen and (min-width: 1024px) {
         justify-content: end;

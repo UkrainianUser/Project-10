@@ -1,15 +1,44 @@
 .header__logo{
-font-family: 'Film P3';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.08;
-letter-spacing: 0.3em;
-color: $white-text-color;
-padding-top: 16px;
-margin-right: 52px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-family: Film P3, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.08333;
+    color: $white-text-color;
+    cursor: pointer;
 
-@media screen and (min-width: 1024px){
-    margin-right: 87px;
+    @media screen and (min-width: 1024px){
+    font-size: 40px;
+    line-height: 1.075;
+    margin-right: 87px;}
+
+    @media screen and (min-width: 1280px){
+        margin-right: 96px;
+    }
+
+
 }
+
+.footer__logo{
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.075;
+    letter-spacing: 0.3em;
+    color: $brown-color;
+    cursor: pointer;
+
+    @media screen and (min-width: 380px){
+    margin-left: 29px;
+}
+    
+    @media screen and (min-width: 1024px){
+        font-size: 64px;
+        line-height: 1.078;
+        margin-left: 32px;
+    }
+
+
 }

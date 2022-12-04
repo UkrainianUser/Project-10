@@ -1,20 +1,140 @@
 .footer{
     background-color: $footer-background-color;
-    padding-top:40px ;
-    padding-bottom: 40px;
-    max-width: 100%;
-    margin: 0 auto;
-
-    &__container{
-        display: flex;
-        text-align: center;
-    }
+ 
+    
 }
 
 .first-footer{
-    display: flex;
-    align-items: baseline;
+    width: 100%;
+    max-width: 414px;
+    align-items: center;
+    padding: 40px 30px;
+    display: flex; 
+
+    background-image: $liner-gradient-footer-mobile;
+
+    @media screen and (min-width: 1024px){
+        max-width: 1024px;
+        padding: 80px 122px;
+        background-image: $liner-gradient-footer-tablet;
+    }
+    
+        @media screen and (min-width: 1280px){
+        max-width: 1280px;
+        padding: 80px 186px;}
+    
 }
-.footer-social__link{
-    display: none;
+
+.nav-and-social{
+    display: flex;
+    flex-direction: column ;
+    border-left: 2 px bold white;
+}
+
+.footer-list{
+    &__list{
+        padding-bottom: 16px;
+    }
+    &__item{
+        margin-bottom: 16px;
+    }
+    &__link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2px;
+        letter-spacing: 0.02em;
+        color: $brown-color;
+        transition: color 250ms $yellow-accent-color;
+
+        &:hover,
+        &:focus{
+            color: $yellow-accent-color;
+        }
+    }
+
+
+}
+
+
+.footer-social{
+    display: flex;
+    gap: 20px;
+
+    @media screen and (min-width: 1024px){
+        flex-direction: column;
+        gap: 12px;
+        margin-left: auto;}
+
+    &__icon{
+        fill:currentColor;
+    }
+    
+
+    &__link{
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        display: flex;
+
+        color: $brown-color;
+        transition: color 250ms $timing-function;
+
+        @media screen and (min-width: 1024px){
+        padding: 10px 12px;
+            border: 0.5px solid rgba(0,0,0,0);
+            border-radius: 2px;
+            border-color: $brown-color;
+            transition: border-color 250ms $timing-function;
+        }
+
+        &:hover,
+        &:focus{
+            color:$yellow-accent-color ;
+
+            @media screen and (min-width: 1024px){
+                border-color: $yellow-accent-color;
+            }
+        }
+
+        &:hover span,
+        &:focus span{
+            color:$yellow-accent-color ;
+
+        }
+    
+    }
+
+
+
+
+    &__text{
+        letter-spacing: .02em;
+        color: $brown-color ;
+        font-size: 16px;
+        line-height: 1.25;
+        display: none;
+        margin-right: 15px;
+
+    
+        @media screen and (min-width: 1024px){
+        display: block;}
+    }
+}
+
+
+
+
+
+.nav-and-social{
+    margin-left: auto;
+
+    @media screen and (min-width: 1024px){
+    gap: 137px;
+    display: flex;
+    flex-direction: row;}
+
+    @media screen and (min-width: 1280px){
+    gap: 199px;}
 }

@@ -1,6 +1,5 @@
 .room-image {
     &__base {
-        display: flex;
         margin-bottom: 32px;
         margin-left: auto;
 
@@ -10,6 +9,11 @@
                 top: -94px;
                 right: 47px;
             }
+
+        @media screen and (min-width:1280px) {
+                top: -104px;
+                right: 95px;
+                }
     }
 
     &__base--three {

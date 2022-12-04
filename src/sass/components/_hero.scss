@@ -1,25 +1,56 @@
+.hero .container {
+	position: relative;
+}
+.container__hero-btn {
+	@media screen and (min-width: 1024px) {
+		display: flex;
+		gap: 40px;
+		justify-content: end;
+		margin-bottom: 28px;
+	}
+
+	@media screen and (min-width: 1280px) {
+		
+	}
+}
 .hero__btn {
 	display: block;
 	margin: 0 auto;
+	@media screen and (min-width: 1024px) {
+		margin: 0;
+	}
 }
 
 .hero__btn--first {
 	margin-bottom: 24px;
+	@media screen and (min-width: 1024px) {
+		margin-bottom: 0;
+	}
 }
 
 .hero__btn--second {
 	margin-bottom: 58px;
+	@media screen and (min-width: 1024px) {
+		margin-bottom: 0;
+	}
 }
 
 .hero {
-	position: relative;
 	background-color: #2f303a;
 	text-align: center;
+	padding-bottom: 21px;
+
+	@media screen and (min-width: 1024px) {
+		padding-bottom: 16px;
+	}
 }
 
 .hero__socials {
 	display: flex;
 	justify-content: flex-start;
+	@media screen and (min-width: 1280px) {
+		display: none;
+	}
 }
 
 .hero__socials-item:not(:last-child) {
@@ -27,21 +58,35 @@
 }
 .hero__title {
 	padding-top: 181px;
+	padding-left: 0.3em;
 	font-family: 'Film P3', monospace;
 	font-weight: 700;
 	font-size: 96px;
 	line-height: 1.07;
 	letter-spacing: 0.3em;
-    text-transform: uppercase;
+   text-transform: uppercase;
 	color: $white-text-color;
+
+	@media screen and (min-width: 1024px) {
+		padding-top: 188px;
+		font-size: 128px;
+	}
+
+	@media screen and (min-width: 1280px) {
+		padding-top: 164px;
+	}
 }
 .hero__subtitle {
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 1.25;
 	letter-spacing: 0.02em;
-
 	color: $white-text-color;
+
+	@media screen and (min-width: 1024px) {
+		font-size: 20px;
+		line-height: 1.2;
+	}
 }
 
 .hero__subtitle-two {
@@ -51,8 +96,12 @@
 	font-size: 32px;
 	line-height: 1.15;
 	letter-spacing: 0.05em;
-    text-transform: uppercase;
+   text-transform: uppercase;
 	color: $white-text-color;
+
+	@media screen and (min-width: 1024px) {
+		margin-bottom: 145px;
+	}
 }
 .hero__link {
 	position: absolute;
@@ -62,8 +111,9 @@
 	align-items: center;
 	justify-content: flex-start;
 	padding: 8px 6px 9px 6px;
-	min-width: 210px;
-	height: 47px;
+	max-width: 210px;
+	height: 48px;
+	text-align: start;
 	border: 1px solid rgba(243, 198, 83, 0.7);
 	border-radius: 2px;
 	font-size: 12px;
@@ -72,8 +122,20 @@
 	font-weight: 400;
 	z-index: 1;
 	color: #E5E5E5;
+
+	@media screen and (min-width: 1024px) {
+		top: auto;
+		right: auto;
+		bottom: 64px;
+		left: 48px;
+	}
+
+	@media screen and (min-width: 1280px) {
+		bottom: 0;
+	}
 }
 
 .hero__icon {
+	width: 3em;
 	fill: rgba(243, 198, 83, 0.7);
 }

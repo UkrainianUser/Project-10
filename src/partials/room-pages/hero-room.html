@@ -1,56 +1,149 @@
-<section class="hero room-hero">
-  <div class="container">
-    <div class="wrapper">
-      <!-- слайдер -->
-      <div class="image-slider swiper-container">
-        <div class="image-slider__wrapper swiper-wrapper">
-          <div class="image-slider__slide swiper-slide">
-            <div class="image-slider__image">
-              <img
-                src="./images/hero-images/hotel-hero-mobile.jpg"
-                alt="Зображення кімнати готелю"
-              />
-            </div>
-          </div>
-          <div class="image-slider__slide swiper-slide">
-            <div class="image-slider__image">
-              <img
-                src="./images/hero-images/main-hero-mobile.jpg"
-                alt="Картинка"
-              />
-            </div>
-          </div>
-          <div class="image-slider__slide swiper-slide">
-            <div class="image-slider__image">
-              <img
-                src="./images/hero-images/hotel-hero-mobile.jpg"
-                alt="Зображення кімнати готелю"
-              />
-            </div>
-          </div>
-          <div class="image-slider__slide swiper-slide">
-            <div class="image-slider__image">
-              <img
-                src="./images/hero-images/main-hero-mobile.jpg"
-                alt="Картинка"
-              />
-            </div>
-          </div>
+<section>
+  <div class="container room-hero">
+    <!-- Swiper -->
+    <div class="swiper hero-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="
+                ./images/hero-images/hotel-hero-desktop.jpg    1x,
+                ./images/hero-images/hotel-hero-desktop@2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./images/hero-images/hotel-hero-tablet.jpg    1x,
+                ./images/hero-images/hotel-hero-tablet@2x.jpg 2x
+              "
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="
+                ./images/hero-images/hotel-hero-mobile.jpg    1x,
+                ./images/hero-images/hotel-hero-mobile@2x.jpg 2x
+              "
+              media="(max-width: 1023px)"
+            />
+            <img
+              src="./images/hero-images/hotel-hero-mobile.jpg"
+              alt="Зображення кімнати готелю"
+            />
+          </picture>
         </div>
-        <!-- додаємо стрілки управління -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="
+                ./images/hero-images/main-hero-desktop.jpg    1x,
+                ./images/hero-images/main-hero-desktop@2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./images/hero-images/main-hero-tablet.jpg    1x,
+                ./images/hero-images/main-hero-tablet@2x.jpg 2x
+              "
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="
+                ./images/hero-images/main-hero-mobile.jpg    1x,
+                ./images/hero-images/main-hero-mobile@2x.jpg 2x
+              "
+              media="(max-width: 1023px)"
+            />
+            <img
+              src="./images/hero-images/main-hero-mobile.jpg"
+              alt="Зображення кімнати готелю"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="
+                ./images/hero-images/hotel-hero-desktop.jpg    1x,
+                ./images/hero-images/hotel-hero-desktop@2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./images/hero-images/hotel-hero-tablet.jpg    1x,
+                ./images/hero-images/hotel-hero-tablet@2x.jpg 2x
+              "
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="
+                ./images/hero-images/hotel-hero-mobile.jpg    1x,
+                ./images/hero-images/hotel-hero-mobile@2x.jpg 2x
+              "
+              media="(max-width: 1023px)"
+            />
+            <img
+              src="./images/hero-images/hotel-hero-mobile.jpg"
+              alt="Зображення кімнати готелю"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="
+                ./images/hero-images/main-hero-desktop.jpg    1x,
+                ./images/hero-images/main-hero-desktop@2x.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./images/hero-images/main-hero-tablet.jpg    1x,
+                ./images/hero-images/main-hero-tablet@2x.jpg 2x
+              "
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="
+                ./images/hero-images/main-hero-mobile.jpg    1x,
+                ./images/hero-images/main-hero-mobile@2x.jpg 2x
+              "
+              media="(max-width: 1023px)"
+            />
+            <img
+              src="./images/hero-images/main-hero-mobile.jpg"
+              alt="Зображення кімнати готелю"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="swiper-button-prev">
+        <img
+          src="./images/hero-images/cil_arrow-left.svg"
+          alt="Зображення стрілочки вліво"
+        />
+      </div>
+      <div class="swiper-button-next">
+        <img
+          src="./images/hero-images/cil_arrow-right.svg"
+          alt="Зображення стрілочки вправо"
+        />
       </div>
     </div>
-    <h1 class="room-hero__title">
-      Двомісний номер <br />
-      <span>люкс</span>
-    </h1>
-    <p class="room-hero__text">
-      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-      Velit officia consequat duis enim velit mollit. Exercitation veniam
-      consequat sunt nostrud amet.
-    </p>
+    <div class="hero-room__text-wrap">
+      <h1 class="room-hero__title">
+        Двомісний номер
+        <span class="room-hero__title-small">люкс</span>
+      </h1>
+      <p class="room-hero__text">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
     <button
       class="button hero__btn room-hero__btn"
       type="button"
@@ -58,16 +151,16 @@
     >
       Переглянути ціни
     </button>
-
     <a
-      class="hero__link"
-      href="https://www.google.com/maps/place/Marshala+Biryuzova+St,+15,+Poltava,+Poltavs'ka+oblast,+Ukraine,+36000/@49.599194,34.5243576,17z/data=!3m1!4b1!4m5!3m4!1s0x40d82601f3347a5f:0x36f3f9aeec44a6a!8m2!3d49.599194!4d34.5265463"
+      class="hero__link room-hero__link"
+      href="https://goo.gl/maps/pxmifmAcoBnW9BxBA"
       target="_blank"
       rel="noopener noreferrer nofollow"
     >
       <svg class="hero__icon" width="20" height="20">
         <use href="./svg/icon.svg#icon-location"></use></svg
-      >Україна, м. Полтава, вул. Маршала Бірюзова, 15
+      >Україна, м. Полтава,<br />
+      вул. Маршала Бірюзова, 15
     </a>
     <ul class="socials room-hero__socials">
       <li class="socials-item room-hero__socials-item">
@@ -109,6 +202,3 @@
     </ul>
   </div>
 </section>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<script src="./js/slider-script.js"></script>

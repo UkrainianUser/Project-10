@@ -1,22 +1,159 @@
-/* slider */
-
-.image-slider__image {
-	text-align: center;
+.room-hero {
+	position: relative;
 }
 
-.image-slider__image img {
-	max-width: 100%;
+
+.room-hero__title {
+	width: 325px;
+	margin-bottom: 14px;
+	font-family: 'Times New Roman', serif;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.14;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	text-align: left;
+	color: $white-text-color;
+
+	@include tablet {
+		width: 510px;
+		font-size: 36px;
+		margin-bottom: 24px;
+	}
 }
 
-/* .image-slider .swiper-slide{
-	width: auto;
-} */
+.room-hero__title-small {
+	text-transform: lowercase;
+}
 
-/* стрілки */
-.image-slider .swiper-button-prev::after,
-.image-slider .swiper-button-next::after {
-	content: "";
-	color: #000;
-	font-size: 60px;
+.room-hero__text {
+	width: 325px;
+	min-height: 74px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 1.25;
+	letter-spacing: 0.02em;
+	text-align: left;
+	color: $white-text-color;
 
+	@include tablet {
+		font-size: 16px;
+		width: 400px;
+		min-height: 83px;
+
+	}
+
+}
+
+.hero-room__text-wrap {
+	position: absolute;
+	top: 473px;
+	left: 15px;
+	z-index: 10;
+
+	@include tablet {
+		position: absolute;
+		bottom: 104px;
+		left: 47px;
+	}
+
+	@include desktop {
+		position: absolute;
+		bottom: 48px;
+		left: 85px;
+	}
+}
+
+.room-hero__link{
+	position: absolute;
+		top: 64px;
+		right: 15px;
+		z-index: 10;   
+
+	@include tablet {
+			// position: absolute;
+			// bottom: 24px;
+			// left: 47px;
+			// z-index: 10;
+			font-size: 16px;
+			width: 285px;
+			padding: 8px 8px 8px 10px;
+	
+		}
+	
+		@include desktop {
+			display: none;
+		}
+}
+
+.room-hero__socials {
+	position: absolute;
+	top: 638px;
+	left: 15px;
+	z-index: 10;
+
+	@include tablet {
+		display: flex;
+		position: absolute;
+		bottom: 38px;
+		left: 372px;
+	}
+
+	@include desktop {
+		display: none;
+	}
+}
+
+.room-hero__socials-item:not(:last-child) {
+	margin-bottom: 8px;
+
+	@include tablet {
+		margin-bottom: 0;
+		margin-right: 20px;
+	}
+}
+
+.room-hero__btn {
+	position: absolute;
+	bottom: 40px;
+	right: 58px;
+	z-index: 10;
+
+	@include tablet {
+		position: absolute;
+		bottom: 267px;
+		right: 47px;
+		z-index: 100;
+	}
+
+	@include desktop {
+		position: absolute;
+		bottom: 66px;
+		right: 85px;
+	}
+
+}
+
+.swiper {
+	width: calc(100% + 30px);
+	height: 100%;
+	margin-left: -15px;
+
+}
+
+.swiper-slide {
+	background: #fff;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+	content: none;
 }

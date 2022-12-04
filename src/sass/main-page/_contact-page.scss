@@ -1,24 +1,32 @@
 .section-contact {
+  max-width: 414px;
   padding-top: 36px;
   padding-bottom: 32px;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
   background: $primary-background-color;
   background-image: $liner-gradient-main-mobile;
 
-  @media screen and (min-width: 1024px) {
-    max-width: 1024px;
-    background-image: $liner-gradient-main-tablet;
-  }
+  // @media screen and (min-width: 1024px) {
+  //   max-width: 1024px;
+  //   background-image: $liner-gradient-main-tablet;
+  // }
 
-  @media screen and (min-width: 1280px) {
-    max-width: 1280px;
-  }
+  // @media screen and (min-width: 1280px) {
+  //   max-width: 1280px;
+  // }
 
   @media (min-width: 1024px) {
     padding-top: 56px;
     padding-bottom: 51px;
+    max-width: 1024px;
+      background-image: $liner-gradient-main-tablet;
   }
 
   @media (min-width: 1280px) {
+    max-width: 1280px;
     padding-top: 56px;
     padding-bottom: 80px;
   }

@@ -41,6 +41,7 @@
     &__logo {
         display: flex;
         flex-direction: row-reverse;
+        margin-right: -12px;
         margin-bottom: 16px;
 
         color: $logo-black-color;
@@ -52,6 +53,7 @@
         letter-spacing: 0.3em;
 
         @media screen and (min-width: 1024px) {
+            margin-right: -19px;
             margin-bottom: 24px;
             font-size: 64px;
             line-height: 1.078;
@@ -136,30 +138,38 @@
             position: absolute;
             left: 112px;
             top: -24px;
-
-
         }
 
         @media (min-width: 1280px) {
             left: 180px;
-
-        
         }
         
         @media (min-width: 1280px) {
             left: 180px;     
-
         }
     }
 
     &__image-second {
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
-        margin-bottom: 32px;
+
+        @media screen and (max-width: 1023px) {
+            margin-bottom: 32px;
+        }
     }
 }
 
 .swiper-about-hotel {
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: -28px;
+        margin-left: 0px;
+    }
+    
+    @media screen and (min-width: 1280px) {
+        margin-top: -167px;
+    }
 
     &__flex {
         display: flex;
@@ -170,7 +180,7 @@
             margin-bottom: 32px;
         }
         
-        @media screen and (min-width: 1024px) {
+        @media screen and (min-width: 1280px) {
             margin-bottom: 40px;
         }
     }
@@ -185,9 +195,6 @@
     &__image--hidden {
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
-        
-
-        margin-bottom: 20px;
         margin-right: auto;
     }
 

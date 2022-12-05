@@ -88,25 +88,18 @@
 }
 .menu__button {
 	display: block;
-	min-width: 236px;
+	width: 238px;
 	min-height: 49px;
 	padding: 15px 22px 14px;
 	margin-top: 32px;
 	margin-right: auto;
 	margin-left: auto;
-	color: $yellow-accent-color;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.25;
 	background: $restaurant-background-button-color;
 	border: 2px solid $primary-background-color;
-	border-radius: 25px;
-	transition:	background-color 250ms $timing-function, 
-	border-color 250ms $timing-function;
+	transition:	border-color 250ms $timing-function;
 
 	&:hover,
 	&:focus {
-		background-color: $hover-white-background-button-color;
 		border-color: $yellow-accent-color;
 	}
 

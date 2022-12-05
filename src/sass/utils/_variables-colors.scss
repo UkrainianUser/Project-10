@@ -6,7 +6,6 @@ $secondary-background-color: #f0ecd6;
 $hero-fill-color: rgba(0, 0, 0, 0.65);
 $hero-background-color: #2f303a;
 
-
 //Header//
 $header-address-text-color: #e5e5e5;
 $room-page-header-gradient: linear-gradient(
@@ -54,53 +53,76 @@ $pictures-box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
 //Icons//
 $fill-white-icons: #ffffff;
 $fill-black-icons: #000000;
-$fill-yellow-icons: #f3c653; 
-
+$fill-yellow-icons: #f3c653;
 
 // Gradient About our restaurant, Contacts, About our kitchen, Hotel Page, Room Page
-$liner-gradient-main-mobile: linear-gradient(to right,
-transparent 33%,
-rgba(186, 186, 186, 0.4) 33% 33.1%,
-transparent 33.1% 67%,
-rgba(186, 186, 186, 0.4) 67% 67.1%,
-transparent 67.1%);
+$liner-gradient-main-mobile: linear-gradient(
+  to right,
+  transparent 33%,
+  rgba(186, 186, 186, 0.4) 33% 33.1%,
+  transparent 33.1% 67%,
+  rgba(186, 186, 186, 0.4) 67% 67.1%,
+  transparent 67.1%
+);
 
-$liner-gradient-main-tablet: linear-gradient(to right,
-transparent 25%,
-rgba(186, 186, 186, 0.4) 25% 25.1%,
-transparent 25.1% 50%,
-rgba(186, 186, 186, 0.4) 50% 50.1%,
-transparent 50.1% 75%,
-rgba(186, 186, 186, 0.4) 75% 75.1%,
-transparent 75.1%);
+$liner-gradient-main-tablet: linear-gradient(
+  to right,
+  transparent 25%,
+  rgba(186, 186, 186, 0.4) 25% 25.1%,
+  transparent 25.1% 50%,
+  rgba(186, 186, 186, 0.4) 50% 50.1%,
+  transparent 50.1% 75%,
+  rgba(186, 186, 186, 0.4) 75% 75.1%,
+  transparent 75.1%
+);
 
 // Gradient Details of our restaurant, Details of our hotel
-$liner-gradient-details-mobile: linear-gradient(to right,
-transparent 33%,
-rgba(122, 122, 122, 0.4) 33% 33.1%,
-transparent 33.1% 67%,
-rgba(122, 122, 122, 0.4) 67% 67.1%,
-transparent 67.1%);
-$liner-gradient-details-tablet: linear-gradient(to right,
-transparent 25%,
-rgba(122, 122, 122, 0.4) 25% 25.1%,
-transparent 25.1% 50%,
-rgba(122, 122, 122, 0.4) 50% 50.1%,
-transparent 50.1% 75%,
-rgba(122, 122, 122, 0.4) 75% 75.1%,
-transparent 75.1%);
-$liner-gradient-details: linear-gradient(to right, 
-rgba(0, 0, 0, 0.65),
-rgba(0, 0, 0, 0.65));
+$liner-gradient-details-mobile: linear-gradient(
+  to right,
+  transparent 33%,
+  rgba(122, 122, 122, 0.4) 33% 33.1%,
+  transparent 33.1% 67%,
+  rgba(122, 122, 122, 0.4) 67% 67.1%,
+  transparent 67.1%
+);
+$liner-gradient-details-tablet: linear-gradient(
+  to right,
+  transparent 25%,
+  rgba(122, 122, 122, 0.4) 25% 25.1%,
+  transparent 25.1% 50%,
+  rgba(122, 122, 122, 0.4) 50% 50.1%,
+  transparent 50.1% 75%,
+  rgba(122, 122, 122, 0.4) 75% 75.1%,
+  transparent 75.1%
+);
+$liner-gradient-amenities-desktop: linear-gradient(
+  to right,
+  transparent 25%,
+  rgba(122, 122, 122, 0.4) 25% 25.1%,
+  transparent 25.1% 50%,
+  rgba(122, 122, 122, 0.4) 50% 50.1%,
+  transparent 50.1% 75%,
+  rgba(122, 122, 122, 0.4) 75% 75.1%,
+  transparent 75.1%
+);
+$liner-gradient-details: linear-gradient(
+  to right,
+  rgba(0, 0, 0, 0.65),
+  rgba(0, 0, 0, 0.65)
+);
 
 // Gradient Footer
-$liner-gradient-footer-mobile: linear-gradient(to right,
-transparent 67%,
-rgba(122, 122, 122, 0.4) 67% 67.1%,
-transparent 67.1%);
-$liner-gradient-footer-tablet: linear-gradient(to right,
-transparent 50%,
-rgba(122, 122, 122, 0.4) 50% 50.1%,
-transparent 50.1% 75%,
-rgba(122, 122, 122, 0.4) 75% 75.1%,
-transparent 75.1%);
+$liner-gradient-footer-mobile: linear-gradient(
+  to right,
+  transparent 67%,
+  rgba(122, 122, 122, 0.4) 67% 67.1%,
+  transparent 67.1%
+);
+$liner-gradient-footer-tablet: linear-gradient(
+  to right,
+  transparent 50%,
+  rgba(122, 122, 122, 0.4) 50% 50.1%,
+  transparent 50.1% 75%,
+  rgba(122, 122, 122, 0.4) 75% 75.1%,
+  transparent 75.1%
+);

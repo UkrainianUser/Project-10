@@ -1,3 +1,19 @@
+var swiper = new Swiper(".pageSwiper", {
+  navigation: {
+nextEl: ".button-next",
+prevEl: ".button-prev",
+  },
+  spaceBetween: 20,
+  slidesPerView: 2,
+  slidesPerGroup: 2,
+});
+
+
+
+
+
+
+
 // // <!-- Initialize Swiper -->
 // new Swiper(".hero-swiper", {
 // 	navigation: {

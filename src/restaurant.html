@@ -25,5 +25,18 @@
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="./index.js"></script>
+    <script>
+      var swiper = new Swiper(".pageSwiper", {
+        navigation: {
+      nextEl: ".button-next",
+      prevEl: ".button-prev",
+        },
+        spaceBetween: 20,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      });
+
+  
+    </script>
   </body>
 </html>

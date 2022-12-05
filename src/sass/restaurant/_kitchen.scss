@@ -104,15 +104,18 @@
     display: flex;
     gap: 24px;
     @media (min-width: 1024px) {
+        display: block;
+        // min-width: 194px;
         gap: 40px;
         justify-content: right;
         margin-bottom: 39.59px;
+        margin-top: -58px;
+        margin-right: 0;
+        margin-left: auto;
     }
         @media (min-width: 1280px) {
             display: block;
             margin-bottom: 47.59;
-            margin-left: auto;
-            margin-right: 0;
             margin-top: -167px;
         }
 }
@@ -122,9 +125,12 @@
     background: #DADADA;
     margin-left: 69px;
     margin-bottom: 27.59px;
-    @media (min-width: 1280px) {
+    @media (min-width: 1024px) {
         margin: 0;
     }
+    // @media (min-width: 1280px) {
+    //     margin: 0;
+    // }
 }
 .kitchen__foto-tkemali {
     display: none;
@@ -136,6 +142,10 @@
     display: flex;
     gap: 33.92px;
     justify-content: flex-end;
+    
+    @media (min-width: 1024px) {
+        margin-top: 40px;
+    }
     @media (min-width: 1280px) {
         margin-top: 45px;
     }

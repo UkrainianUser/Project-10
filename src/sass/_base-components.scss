@@ -60,6 +60,9 @@ body{
 .swiper.pageSwiper{
   width: 50%;
   height: 100%;
+  @media screen and(max-width: 1023px){
+    width: auto;
+  }
 }
 
 .swiper-slide.only-slide{

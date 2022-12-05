@@ -1,16 +1,31 @@
 
 .kitchen {
-    background-color: $primary-background-color;
+    position: relative;
+    max-width: 414px;
+    margin: 0 auto;
     padding-top: 16px;
     padding-bottom: 20px;
-    position: relative;
-
+    background-color: $primary-background-color;
+    background-image: $liner-gradient-main-mobile;
+    
     @media (min-width: 1024px) {
+        max-width: 1024px;
+        height: 1238px;
         padding-top: 120px;
         padding-bottom: 32px;
+        background-image: $liner-gradient-main-tablet;
     }
+
+        @media (min-width: 1280px) {
+            max-width: 1280px;
+        }
+
+&__position-container {
+    position: relative;
 }
 
+
+&__text {
 .kitchen__position-container {
     position: relative;
 }
@@ -30,7 +45,7 @@
     }
 }
 
-.kitchen__logo {
+&__logo {
     font-family: 'Film P3';
     font-weight: 700;
     font-size: 40px;
@@ -47,7 +62,7 @@
     }
 }
 
-.kitchen__description {
+&__description {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 12px;
@@ -62,24 +77,25 @@
         max-width: 45%;
         margin-bottom: 142px;
     }
-        @media (min-width: 1280px) {
-            margin-bottom: 162px;
-        }
+
+    @media (min-width: 1280px) {
+        margin-bottom: 162px;
+    }
 }
 
-.kitchen__description--brown {
+&__description--brown {
     color: $brown-color;
 
     @media (min-width: 1024px) {
         max-width: 33%;
     }
-        @media (min-width: 1280px) {
-            max-width: 312px;
-        }
+
+    @media (min-width: 1280px) {
+        max-width: 312px;
+    }
 }
 
-
-.kitchen__flex {
+&__flex {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -87,12 +103,13 @@
     @media (min-width: 1024px) {
         gap: 40px;
     }
-        @media (min-width: 1280px) {
-            gap: 32px;
-        }
+
+    @media (min-width: 1280px) {
+        gap: 32px;
+    }
 }
 
-.kitchen__foto-interior {
+&__foto-interior {
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
@@ -103,28 +120,59 @@
         position: absolute;
         right: 65px;
         top: -152px;
+
+    }
+
+    @media (min-width: 1280px) {
+        right: 95px;
+    }
+
     }
 
         @media (min-width: 1280px) {
             top: -152;
             right: 65px;
         }
+
 }
 
-.kitchen__foto-meat {
+&__foto-meat {
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
     margin-bottom: 32px;
 }
 
-.kitchen__flex-foto {
+// &__wrapper-position {
+//     position: relative;
+
+// }
+
+&__swiper {
+    @media (min-width: 1024px) {
+        flex-direction: column;
+        margin-top: -48px;
+        margin-right: 0;
+        display: flex;
+    }
+    @media (min-width: 1280px) {
+        margin-top: -168px;
+    }
+}
+
+&__flex-foto {
     display: flex;
     gap: 24px;
+    margin-bottom: 20px;
 
     @media (min-width: 1024px) {
         gap: 40px;
         justify-content: right;
+
+        margin-bottom: 32px;
+        
+    }
+
         margin-bottom: 39.59px;
     }
 
@@ -135,28 +183,56 @@
             margin-right: 0;
             margin-top: -167px;
         }
+
 }
 
-
-.kitchen__foto-flour {
+&__foto-flour {
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
+
+    margin-left: auto;
+    
+
     margin-left: 69px;
     margin-bottom: 27.59px;
 
     @media (min-width: 1280px) {
         margin: 0;
     }
+
 }
 
-.kitchen__foto-tkemali {
-    display: none;
-
-    @media (min-width: 1024px) {
-        display: block;
+&__foto-tkemali {
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    
+    @media (max-width: 1023px) {
+        display: none;
     }
 }
+
+
+&__flex-svg {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+
+&__svg-arrow {
+    display: inline-block;
+    fill: $fill-black-icons;
+    transition: fill 250ms $timing-function;
+}
+
+&__svg-arrow:focus,
+&__svg-arrow:hover {
+    fill: $fill-yellow-icons;
+}
+
+}
+
 
 .kitchen__flex-svg {
     display: flex;
@@ -167,5 +243,6 @@
         margin-top: 45px;
     }
 }
+
 
 

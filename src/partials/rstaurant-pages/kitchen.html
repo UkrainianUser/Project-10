@@ -44,8 +44,13 @@
         <picture>
           <source
             srcset="
+
+              ./images/kitchen/restaurant-meat-mobile.jpg    1x,
+              ./images/kitchen/restaurant-meat-mobile@2x.jpg 2x
+
               ./images/kitchen/pexels-oruri-jacome.jpg    1x,
               ./images/kitchen/pexels-oruri-jacome@2x.jpg 2x
+
             "
             media="(max-width: 1023px)"
           />
@@ -66,10 +71,17 @@
           <img
             class="kitchen__foto-meat"
             srcset="
+
+              ./images/kitchen/restaurant-meat-mobile.jpg    1x,
+              ./images/kitchen/restaurant-meat-mobile@2x.jpg 2x
+            "
+            src="./images/kitchen/restaurant-meat-mobile.jpg"
+
               ./images/kitchen/pexels-oruri-jacome.jpg    1x,
               ./images/kitchen/pexels-oruri-jacome@2x.jpg 2x
             "
             src="./images/kitchen/pexels-oruri-jacome.jpg"
+
             alt="Приготування блюда"
           />
         </picture>
@@ -79,6 +91,85 @@
           veniam consequat sunt nostrud amet.
         </p>
       </div>
+
+      <div class="kitchen__wrapper-position">
+        <div class="kitchen__swiper">
+          <div class="kitchen__flex-foto">
+            <picture>
+              <source
+                srcset="
+                  ./images/kitchen/restaurant-flour-mobile.jpg    1x,
+                  ./images/kitchen/restaurant-flour-mobile@2x.jpg 2x
+                "
+                media="(max-width: 1023px)"
+              />
+              <source
+                srcset="
+                  ./images/kitchen/restaurant-flour-tablet.jpg    1x,
+                  ./images/kitchen/restaurant-flour-tablet@2x.jpg 2x
+                "
+                media="(min-width: 1024px) and (max-width: 1279px)"
+              />
+              <source
+                srcset="
+                  ./images/kitchen/restaurant-flour-desktop.jpg    1x,
+                  ./images/kitchen/restaurant-flour-desktop@2x.jpg 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <img
+                class="kitchen__foto-flour"
+                srcset="
+                  ./images/kitchen/restaurant-flour-mobile.jpg    1x,
+                  ./images/kitchen/restaurant-flour-mobile@2x.jpg 2x
+                "
+                src="./images/kitchen/restaurant-flour-mobile.jpg"
+                alt="Приготування блюда"
+              />
+            </picture>
+            <picture>
+              <source
+                srcset="
+                  ./images/kitchen/restaurant-tkemali-mobile.jpg    1x,
+                  ./images/kitchen/restaurant-tkemali-mobile@2x.jpg 2x
+                "
+                media="(max-width: 1023px)"
+              />
+              <source
+                srcset="
+                  ./images/kitchen/restaurant-tkemali-tablet.jpg    1x,
+                  ./images/kitchen/restaurant-tkemali-tablet@2x.jpg 2x
+                "
+                media="(min-width: 1024px) and (max-width: 1279px)"
+              />
+              <source
+                srcset="
+                  ./images/kitchen/restaurant-tkemali-desktop.jpg    1x,
+                  ./images/kitchen/restaurant-tkemali-desktop@2x.jpg 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <img
+                class="kitchen__foto-tkemali"
+                srcset="
+                  ./images/kitchen/restaurant-tkemali-mobile.jpg    1x,
+                  ./images/kitchen/restaurant-tkemali-mobile@2x.jpg 2x
+                "
+                src="./images/kitchen/restaurant-tkemali-mobile.jpg"
+                alt="Приготування блюда"
+              />
+            </picture>
+          </div>
+          <div class="kitchen__flex-svg">
+            <svg class="kitchen__svg-arrow" width="32" height="32">
+              <use href="./svg/icon.svg#icon-arrow-left"></use>
+            </svg>
+            <svg class="kitchen__svg-arrow" width="32" height="32">
+              <use href="./svg/icon.svg#icon-arrow-right"></use>
+            </svg>
+          </div>
+        </div>
+
       <div class="kitchen__flex-foto swiper pageSwiper">
       <div class="swiper-wrapper">
         <!-- <picture>
@@ -358,6 +449,7 @@
         <svg class="button-next" width="32" height="32">
           <use href="./svg/icon.svg#icon-arrow-right"></use>
         </svg>
+
       </div>
     </div>
   </div>

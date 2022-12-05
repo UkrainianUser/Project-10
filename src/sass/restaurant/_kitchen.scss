@@ -6,7 +6,7 @@
     padding-top: 16px;
     padding-bottom: 20px;
     background-color: $primary-background-color;
-    background-image: $liner-gradient-main-mobile;   
+    background-image: $liner-gradient-main-mobile;
     
     @media (min-width: 1024px) {
         max-width: 1024px;
@@ -182,7 +182,16 @@
     margin-bottom: 0;
 }
 
+&__svg-arrow {
+    display: inline-block;
+    fill: $fill-black-icons;
+    transition: fill 250ms $timing-function;
+}
 
+&__svg-arrow:focus,
+&__svg-arrow:hover {
+    fill: $fill-yellow-icons;
+}
 
 }
 

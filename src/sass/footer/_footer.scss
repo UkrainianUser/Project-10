@@ -15,21 +15,17 @@
 
     @media screen and (min-width: 1024px){
         max-width: 1024px;
-        padding: 80px 122px;
+        padding: 80px 100px;
         background-image: $liner-gradient-footer-tablet;
     }
     
         @media screen and (min-width: 1280px){
         max-width: 1280px;
-        padding: 80px 186px;}
+        padding: 80px 160px;}
     
 }
 
-.nav-and-social{
-    display: flex;
-    flex-direction: column ;
-    border-left: 2 px bold white;
-}
+
 
 .footer-list{
     &__list{
@@ -128,13 +124,16 @@
 
 
 .nav-and-social{
+    display: flex;
+    flex-direction: column ;
+    border-left: 2 px bold white;
     margin-left: auto;
 
     @media screen and (min-width: 1024px){
-    gap: 137px;
+    gap: 155px;
     display: flex;
     flex-direction: row;}
 
     @media screen and (min-width: 1280px){
-    gap: 199px;}
+    gap: 210px;}
 }

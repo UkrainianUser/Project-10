@@ -41,82 +41,224 @@
         />
       </picture>
       <div class="room-two__container">
-        <div class="room-two__swiper">
-          <div class="room-two__swiper-image">
-            <picture сlass="room-image">
-              <source
-                srcset="
-                  ./images/hotel-room2/bathroom.jpg    1x,
-                  ./images/hotel-room2/bathroom@2x.jpg 2x
-                "
-                type="image/jpeg"
-                media="(max-width: 1023px)"
-              />
-              <source
-                srcset="
-                  ./images/hotel-room2/bathroom-tablet.jpg    1x,
-                  ./images/hotel-room2/bathroom-tablet@2x.jpg 2x
-                "
-                type="image/jpeg"
-                media="(min-width: 1024px) and (max-width: 1279px)"
-              />
-              <source
-                srcset="
-                  ./images/hotel-room2/bathroom-desktop.jpg    1x,
-                  ./images/hotel-room2/bathroom-desktop@2x.jpg 2x
-                "
-                type="image/jpeg"
-                media="(min-width: 1280px)"
-              />
-              <img
-                class="room-image__swipe room-image__swipe--none"
-                src="./images/hotel-room2/bathroom.jpg"
-                alt="ванна кімната"
-              />
-            </picture>
-            <picture class="room-image">
-              <source
-                srcset="
-                  ./images/hotel-room2/cup.jpg    1x,
-                  ./images/hotel-room2/cup@2x.jpg 2x
-                "
-                type="image/jpeg"
-                media="(max-width: 1023px)"
-              />
-              <source
-                srcset="
-                  ./images/hotel-room2/cup-tablet.jpg    1x,
-                  ./images/hotel-room2/cup-tablet@2x.jpg 2x
-                "
-                type="image/jpeg"
-                media="(min-width: 1024px) and (max-width: 1279px)"
-              />
-              <source
-                srcset="
-                  ./images/hotel-room2/cup-desktop.jpg    1x,
-                  ./images/hotel-room2/cup-desktop@2x.jpg 2x
-                "
-                type="image/jpeg"
-                media="(min-width: 1280px)"
-              />
-              <img
-                class="room-image__swipe"
-                src="./images/hotel-room2/cup.jpg"
-                alt="чашка"
-              />
-            </picture>
+        <div class="room-two__swiper swiper pageSwiper">
+          <div class="room-two__swiper-image swiper-wrapper">
+            <div class="swiper-slide only-slide">
+              <picture сlass="room-image">
+                <source
+                  srcset="
+                    ./images/hotel-room2/bathroom.jpg    1x,
+                    ./images/hotel-room2/bathroom@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 1023px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/bathroom-tablet.jpg    1x,
+                    ./images/hotel-room2/bathroom-tablet@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1024px) and (max-width: 1279px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/bathroom-desktop.jpg    1x,
+                    ./images/hotel-room2/bathroom-desktop@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1280px)"
+                  sizes="(min-width: 1280px) 254px, 254px"
+                />
+                <img
+                  class="room-image__swipe room-image__swipe--none"
+                  src="./images/hotel-room2/bathroom.jpg"
+                  alt="ванна кімната"
+                  width="254px"
+                  height="254px"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide only-slide">
+              <picture class="room-image">
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup.jpg    1x,
+                    ./images/hotel-room2/cup@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 1023px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup-tablet.jpg    1x,
+                    ./images/hotel-room2/cup-tablet@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1024px) and (max-width: 1279px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup-desktop.jpg    1x,
+                    ./images/hotel-room2/cup-desktop@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1280px)"
+                  sizes="(min-width: 1280px) 254px, 100vw"
+                />
+                <img
+                  class="room-image__swipe"
+                  src="./images/hotel-room2/cup.jpg"
+                  alt="чашка"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide only-slide">
+              <picture class="room-image">
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup.jpg    1x,
+                    ./images/hotel-room2/cup@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 1023px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup-tablet.jpg    1x,
+                    ./images/hotel-room2/cup-tablet@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1024px) and (max-width: 1279px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup-desktop.jpg    1x,
+                    ./images/hotel-room2/cup-desktop@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1280px)"
+                  sizes="(min-width: 1280px) 254px, 100vw"
+                />
+                <img
+                  class="room-image__swipe"
+                  src="./images/hotel-room2/cup.jpg"
+                  alt="чашка"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide only-slide">
+              <picture class="room-image">
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup.jpg    1x,
+                    ./images/hotel-room2/cup@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 1023px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup-tablet.jpg    1x,
+                    ./images/hotel-room2/cup-tablet@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1024px) and (max-width: 1279px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup-desktop.jpg    1x,
+                    ./images/hotel-room2/cup-desktop@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1280px)"
+                  sizes="(min-width: 1280px) 254px, 100vw"
+                />
+                <img
+                  class="room-image__swipe"
+                  src="./images/hotel-room2/cup.jpg"
+                  alt="чашка"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide only-slide">
+              <picture class="room-image">
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup.jpg    1x,
+                    ./images/hotel-room2/cup@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 1023px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup-tablet.jpg    1x,
+                    ./images/hotel-room2/cup-tablet@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1024px) and (max-width: 1279px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup-desktop.jpg    1x,
+                    ./images/hotel-room2/cup-desktop@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1280px)"
+                  sizes="(min-width: 1280px) 254px, 100vw"
+                />
+                <img
+                  class="room-image__swipe"
+                  src="./images/hotel-room2/cup.jpg"
+                  alt="чашка"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide only-slide">
+              <picture class="room-image">
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup.jpg    1x,
+                    ./images/hotel-room2/cup@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 1023px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup-tablet.jpg    1x,
+                    ./images/hotel-room2/cup-tablet@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1024px) and (max-width: 1279px)"
+                />
+                <source
+                  srcset="
+                    ./images/hotel-room2/cup-desktop.jpg    1x,
+                    ./images/hotel-room2/cup-desktop@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1280px)"
+                  sizes="(min-width: 1280px) 254px, 100vw"
+                />
+                <img
+                  class="room-image__swipe"
+                  src="./images/hotel-room2/cup.jpg"
+                  alt="чашка"
+                />
+              </picture>
+            </div>
           </div>
           <div class="room-two__svg">
-            <a href="#">
-              <svg class="room-two__svg-arrow" width="29.91" height="16.83">
+           
+              <svg class="room-two__svg-arrow button-prev" width="29.91" height="16.83">
                 <use href="./svg/icon.svg#icon-arrow-left-new"></use>
               </svg>
-            </a>
-            <a href="#">
-              <svg class="room-two__svg-arrow" width="29.91" height="16.83">
+              <svg class="room-two__svg-arrow button-next" width="29.91" height="16.83">
                 <use href="./svg/icon.svg#icon-arrow-right-new"></use>
               </svg>
-            </a>
+            
           </div>
         </div>
         <div class="room-button">

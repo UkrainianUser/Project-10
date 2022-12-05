@@ -3,7 +3,9 @@
   background-color: $primary-background-color;
 
   @include desktop {
-    background-image: $liner-gradient-details-tablet;
+    max-width: 1280px;
+    background-image: $liner-gradient-amenities-desktop;
+    margin: 0 auto;
   }
 
   @include tablet {

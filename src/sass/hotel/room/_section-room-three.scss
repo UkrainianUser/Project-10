@@ -127,6 +127,12 @@
         @media screen and (min-width:1024px) {
         display: inline-block;
         }
+        &.swiper{
+            @media screen and (min-width:1024px) {
+                margin-left: auto;
+                margin-right: 0;
+                }
+        }
     }
 
     &__swiper-image {

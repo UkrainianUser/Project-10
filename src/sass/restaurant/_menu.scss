@@ -1,4 +1,5 @@
 .menu {
+	width: 100%;
 	padding-top: 32px;
 	padding-bottom: 32px;
 	color: $primary-text-color;
@@ -12,12 +13,13 @@
 	@media screen and (min-width: 1024px) {
 		padding-top: 58px;
 		padding-bottom: 40px;
-		background-image: $liner-gradient-main-mobile;
 		background-color: $secondary-background-color;
-		background-image: $liner-gradient-main-tablet;
+		background-image: $liner-gradient-menu-tablet, $liner-gradient-stripe-menu-tablet;
 	}
 	@media screen and (min-width: 1280px) {
+		background-image: $liner-gradient-menu-desktop, $liner-gradient-main-desktop;
 		padding-bottom: 60px;
+		margin: 0 auto;
 	}
 }
 .menu__title {
@@ -88,7 +90,7 @@
 	display: block;
 	min-width: 236px;
 	min-height: 49px;
-	padding: 15px 24px 14px;
+	padding: 15px 22px 14px;
 	margin-top: 32px;
 	margin-right: auto;
 	margin-left: auto;

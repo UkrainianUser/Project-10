@@ -1,35 +1,17 @@
 
 .kitchen {
-    position: relative;
-    max-width: 414px;
-    margin: 0 auto;
+    background-color: $primary-background-color;
     padding-top: 16px;
     padding-bottom: 20px;
-    background-color: $primary-background-color;
-    background-image: $liner-gradient-main-mobile;
-    
+    position: relative;
     @media (min-width: 1024px) {
-        max-width: 1024px;
-        height: 1238px;
         padding-top: 120px;
         padding-bottom: 32px;
-        background-image: $liner-gradient-main-tablet;
     }
-
-        @media (min-width: 1280px) {
-            max-width: 1280px;
-        }
-
-&__position-container {
-    position: relative;
 }
-
-
-&__text {
 .kitchen__position-container {
     position: relative;
 }
-
 .kitchen__text {
     font-family: 'Times New Roman';
     font-weight: 400;
@@ -37,15 +19,13 @@
     line-height: 1.15;
     color: $optional-text-color-under-logo;
     margin-bottom: 12px;
-
     @media (min-width: 1024px) {
         font-size: 32px;
         line-height: 1.16;
         margin-bottom: 4px;
     }
 }
-
-&__logo {
+.kitchen__logo {
     font-family: 'Film P3';
     font-weight: 700;
     font-size: 40px;
@@ -54,15 +34,13 @@
     color: $logo-black-color;
     text-transform: uppercase;
     margin-bottom: 12px;
-
     @media (min-width: 1024px) {
         font-size: 64px;
         line-height: 1.01;
         margin-bottom: 24px;
     }
 }
-
-&__description {
+.kitchen__description {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 12px;
@@ -71,178 +49,94 @@
     color: #5F5F5F;
     margin-bottom: 28px;
     max-width: 66.66666%;
-
     @media (min-width: 1024px) {
         font-size: 16px;
         max-width: 45%;
         margin-bottom: 142px;
     }
-
-    @media (min-width: 1280px) {
-        margin-bottom: 162px;
-    }
+        @media (min-width: 1280px) {
+            margin-bottom: 162px;
+        }
 }
-
-&__description--brown {
+.kitchen__description--brown {
     color: $brown-color;
-
     @media (min-width: 1024px) {
         max-width: 33%;
     }
-
-    @media (min-width: 1280px) {
-        max-width: 312px;
-    }
+        @media (min-width: 1280px) {
+            max-width: 312px;
+        }
 }
-
-&__flex {
+.kitchen__flex {
     display: flex;
     align-items: center;
     gap: 20px;
-
     @media (min-width: 1024px) {
         gap: 40px;
     }
-
-    @media (min-width: 1280px) {
-        gap: 32px;
-    }
+        @media (min-width: 1280px) {
+            gap: 32px;
+        }
 }
-
-&__foto-interior {
+.kitchen__foto-interior {
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
     margin-bottom: 32px;
     margin-left: auto;
-
     @media (min-width: 1024px) {
         position: absolute;
         right: 65px;
         top: -152px;
-
     }
-
-    @media (min-width: 1280px) {
-        right: 95px;
-    }
-
-    }
-
         @media (min-width: 1280px) {
             top: -152;
             right: 65px;
         }
-
 }
-
-&__foto-meat {
+.kitchen__foto-meat {
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
     margin-bottom: 32px;
 }
-
-// &__wrapper-position {
-//     position: relative;
-
-// }
-
-&__swiper {
-    @media (min-width: 1024px) {
-        flex-direction: column;
-        margin-top: -48px;
-        margin-right: 0;
-        display: flex;
-    }
-    @media (min-width: 1280px) {
-        margin-top: -168px;
-    }
-}
-
-&__flex-foto {
+.kitchen__flex-foto {
     display: flex;
     gap: 24px;
-    margin-bottom: 20px;
-
     @media (min-width: 1024px) {
         gap: 40px;
         justify-content: right;
-
-        margin-bottom: 32px;
-        
-    }
-
         margin-bottom: 39.59px;
     }
-
         @media (min-width: 1280px) {
             display: block;
             margin-bottom: 47.59;
             margin-left: auto;
             margin-right: 0;
-            margin-top: -147px;
+            margin-top: -167px;
         }
-
 }
-
-&__foto-flour {
+.kitchen__foto-flour {
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
-
-    margin-left: auto;
-    
-
     margin-left: 69px;
     margin-bottom: 27.59px;
-
     @media (min-width: 1280px) {
         margin: 0;
     }
-
 }
-
-&__foto-tkemali {
-    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-    border-radius: 2px;
-    
-    @media (max-width: 1023px) {
-        display: none;
+.kitchen__foto-tkemali {
+    display: none;
+    @media (min-width: 1024px) {
+        display: block;
     }
 }
-
-
-&__flex-svg {
-    display: flex;
-    gap: 32px;
-    justify-content: flex-end;
-    margin-bottom: 0;
-}
-
-&__svg-arrow {
-    display: inline-block;
-    fill: $fill-black-icons;
-    transition: fill 250ms $timing-function;
-}
-
-&__svg-arrow:focus,
-&__svg-arrow:hover {
-    fill: $fill-yellow-icons;
-}
-
-}
-
-
 .kitchen__flex-svg {
     display: flex;
     gap: 33.92px;
     justify-content: flex-end;
-
     @media (min-width: 1280px) {
         margin-top: 45px;
     }
 }
-
-
-

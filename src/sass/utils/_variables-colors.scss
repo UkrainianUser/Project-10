@@ -107,45 +107,7 @@ transparent 73.7%);
 $liner-gradient-details: linear-gradient(to right, 
 rgba(0, 0, 0, 0.65),
 rgba(0, 0, 0, 0.65));
-$liner-gradient-main-mobile: linear-gradient(
-  to right,
-  transparent 33%,
-  rgba(186, 186, 186, 0.4) 33% 33.1%,
-  transparent 33.1% 67%,
-  rgba(186, 186, 186, 0.4) 67% 67.1%,
-  transparent 67.1%
-);
 
-$liner-gradient-main-tablet: linear-gradient(
-  to right,
-  transparent 25%,
-  rgba(186, 186, 186, 0.4) 25% 25.1%,
-  transparent 25.1% 50%,
-  rgba(186, 186, 186, 0.4) 50% 50.1%,
-  transparent 50.1% 75%,
-  rgba(186, 186, 186, 0.4) 75% 75.1%,
-  transparent 75.1%
-);
-
-// Gradient Details of our restaurant, Details of our hotel
-$liner-gradient-details-mobile: linear-gradient(
-  to right,
-  transparent 33%,
-  rgba(122, 122, 122, 0.4) 33% 33.1%,
-  transparent 33.1% 67%,
-  rgba(122, 122, 122, 0.4) 67% 67.1%,
-  transparent 67.1%
-);
-$liner-gradient-details-tablet: linear-gradient(
-  to right,
-  transparent 25%,
-  rgba(122, 122, 122, 0.4) 25% 25.1%,
-  transparent 25.1% 50%,
-  rgba(122, 122, 122, 0.4) 50% 50.1%,
-  transparent 50.1% 75%,
-  rgba(122, 122, 122, 0.4) 75% 75.1%,
-  transparent 75.1%
-);
 $liner-gradient-amenities-desktop: linear-gradient(
   to right,
   transparent 25%,
@@ -156,12 +118,6 @@ $liner-gradient-amenities-desktop: linear-gradient(
   rgba(122, 122, 122, 0.4) 75% 75.1%,
   transparent 75.1%
 );
-$liner-gradient-details: linear-gradient(
-  to right,
-  rgba(0, 0, 0, 0.65),
-  rgba(0, 0, 0, 0.65)
-);
-
 
 // Gradient menu
 $liner-gradient-stripe-menu-tablet: linear-gradient(to right,
@@ -200,18 +156,5 @@ transparent 50.1% 73.6%,
 rgba(122, 122, 122, 0.4) 73.6% 73.7%,
 transparent 73.7%);
 
-$liner-gradient-footer-mobile: linear-gradient(
-  to right,
-  transparent 67%,
-  rgba(122, 122, 122, 0.4) 67% 67.1%,
-  transparent 67.1%
-);
-$liner-gradient-footer-tablet: linear-gradient(
-  to right,
-  transparent 50%,
-  rgba(122, 122, 122, 0.4) 50% 50.1%,
-  transparent 50.1% 75%,
-  rgba(122, 122, 122, 0.4) 75% 75.1%,
-  transparent 75.1%
-);
+
 

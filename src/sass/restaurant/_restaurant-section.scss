@@ -115,6 +115,10 @@
             line-height: 1.25;
         }
 
+        @media screen and (min-width: 1280px) {
+             width: 456;
+        }
+
     }
 
     &__image-first {
@@ -154,7 +158,7 @@
     }
     
     @media screen and (min-width: 1280px) {
-        margin-top: -147px;
+        margin-top: -157px;
     }
 
     &__flex {
@@ -169,6 +173,8 @@
 
         @media screen and (min-width: 1280px) {
             margin-bottom: 36px;
+            margin-left: auto;
+            margin-right: 0;
         }
     }
 

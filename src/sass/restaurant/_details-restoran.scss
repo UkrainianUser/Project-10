@@ -34,15 +34,18 @@
     }
     @media screen and (min-width: 1280px) {
         max-width: 1280px;
+        background-image: $liner-gradient-details-desktop,
+
         padding-bottom: 96px;
         background-image: $liner-gradient-details-tablet,
+
             $liner-gradient-details,
             url("../images/details-restoran/restoran-desktop.jpg");
     
         @media screen and (min-device-pixel-ratio: 2), 
         screen and (min-resolution: 192dpi), 
         screen and (min-resolution: 2dppx) {
-            background-image: $liner-gradient-details-tablet,
+            background-image: $liner-gradient-details-desktop,
                 $liner-gradient-details,
                 url("../images/details-restoran/restoran-desktop@2x.jpg");
        }
@@ -229,7 +232,7 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
 
-    background-color: transparent;
+    background-color: $restaurant-background-button-color;
     color: $fill-yellow-icons;
     border: 2px solid $border-white-button-color;
     border-radius: 25px;

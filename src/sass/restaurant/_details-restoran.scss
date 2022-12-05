@@ -35,6 +35,10 @@
     @media screen and (min-width: 1280px) {
         max-width: 1280px;
         background-image: $liner-gradient-details-desktop,
+
+        padding-bottom: 96px;
+        background-image: $liner-gradient-details-tablet,
+
             $liner-gradient-details,
             url("../images/details-restoran/restoran-desktop.jpg");
     

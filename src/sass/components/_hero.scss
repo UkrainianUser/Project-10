@@ -146,10 +146,20 @@
 	line-height: 1.25;
 	letter-spacing: 0.01em;
 	font-weight: 400;
+	font-style: normal;
 	z-index: 1;
 	color: #E5E5E5;
+	transition: border-color 250ms $timing-function;
+		
+		&:hover,
+		&:focus {
+		   border-color: $yellow-accent-color;
+		}
 
 	@media screen and (min-width: 1024px) {
+		font-size: 16px;
+		padding: 8px 8px 8px 10px;
+		width: 285px;
 		top: auto;
 		right: auto;
 		bottom: 77px;
@@ -167,5 +177,11 @@
 	display: block;
 	margin-right: 8px;
 	fill: rgba(243, 198, 83, 0.7);
+	transition: fill 250ms $timing-function;
+	
+	.hero__link:hover &,
+	.hero__link:focus & {
+		fill: $yellow-accent-color;
+	}
 
 }

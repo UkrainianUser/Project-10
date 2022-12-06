@@ -1,5 +1,11 @@
 .socials__link {
 	color: rgba(243, 198, 83, 0.7);
+	transition: color 250ms $timing-function;
+	
+		&:hover,
+		&:focus {
+			color: $yellow-accent-color;
+		}
 }
 
 .socials__icon {

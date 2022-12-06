@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant page</title>
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./sass/main.scss" />
-    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
   </head>
   <body>
     <include src="./partials/header-main.html"></include>
@@ -22,15 +27,15 @@
     <include src="./partials/modal/table-reservation.html"></include>
     <include src="./partials/modal/room-reservation.html"></include>
     <include src="./partials/modal/room-prices.html"></include>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="./index.js"></script>
     <script>
-      var swiper = new Swiper(".pageSwiper", {
+      var swiper = new Swiper('.pageSwiper', {
         loop: !0,
         navigation: {
-      nextEl: ".button-next",
-      prevEl: ".button-prev",
+          nextEl: '.button-next',
+          prevEl: '.button-prev',
         },
         // spaceBetween: 20,
         // slidesPerView: 2,
@@ -51,7 +56,7 @@
           1280: {
             slidesPerView: 3,
             spaceBetween: 87,
-          }
+          },
         },
       });
     </script>

@@ -105,6 +105,7 @@
         }
 }
 .kitchen__foto-meat {
+    min-width: 100%;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
@@ -152,6 +153,7 @@
     display: flex;
     gap: 33.92px;
     justify-content: flex-end;
+    margin-bottom: -40px;
     
     @media (min-width: 1024px) {
         margin-top: 40px;
@@ -159,4 +161,8 @@
     @media (min-width: 1280px) {
         margin-top: 45px;
     }
+}
+
+.kichen__svg-arrow{
+    margin-bottom: -15px;
 }

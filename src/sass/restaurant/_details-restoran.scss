@@ -36,7 +36,7 @@
         max-width: 1280px;
         background-image: $liner-gradient-details-desktop;
 
-        padding-bottom: 96px;
+        // padding-bottom: 96px;
         background-image: $liner-gradient-details-tablet,
 
             $liner-gradient-details,
@@ -131,46 +131,62 @@
         justify-content: start;
     }
 }
-.slider__container {
+.swiper.details-swiper.slider__container {
+    width: 370px;
     padding-left: 40px;
+    // margin-left: -15px;
     @media screen and (min-width: 1024px) {
+        // width: 662px;
+        width: 580px;
         padding-left: 0;
     }
-   
-
-}
-.details__slider {
-    width: 100%;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-
-    @media screen and (min-width: 1024px) {
-        gap: 34px;
-    }
     @media screen and (min-width: 1280px) {
-        gap: 87px;
+        width: 876px;
     }
+
 }
-.slider-item {
+.swiper-wrapper.details__slider {
+    height: 270px;
     margin-bottom: 16px;
-
-
+    list-style: none;
+    // overflow: hidden;
     @media screen and (min-width: 1024px) {
         margin-bottom: 24px;
     }
 }
-.details-image {
-    background-color: #bababa;
-    border-radius: 2px;
+.swiper-slide.slider-item {
+    overflow: hidden;
 }
-.details-image--swiper {
-    display: none;
-    @media screen and (min-width: 1024px) {
-        display: block;
-    }
+// .swiper-slide.slider-item:nth-child(3n+1) {
+//     width: 274px;
 
+//     @media screen and (min-width: 1024px) {
+//         width: 270px;
+//     }
+// }
+// .swiper-slide.slider-item:nth-child(3n+2) {
+//     width: 160px;
+//     @media screen and (min-width: 1024px) {
+//         width: 162px;
+//     }
+// }
+// .swiper-slide.slider-item:nth-child(3n+3) {
+//     max-width: 160px;
+//     @media screen and (min-width: 1024px) {
+//         width: 162px;
+//     }
+//     @media screen and (min-width: 1280px) {
+//         width: 270px;
+//     }
+// }
+.details-image {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
+
 .details__icon {
     list-style: none;
     display: flex;

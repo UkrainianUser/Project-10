@@ -1,14 +1,19 @@
 .room-three {
-    width: 100%;
+    max-width: 414px;
+    margin: 0 auto;
     padding: 32px 0px;
     background-color: $secondary-background-color;
 
     @media screen and (min-width:1024px) {
+            ackground-image: $liner-gradient-main-tablet;
+            max-width: 1024px;
             padding-top: 66px;
             padding-bottom: 47.59px;
         }
 
     @media screen and (min-width:1280px) {
+            max-width: 1280px;
+            background-image: $liner-gradient-main-desktop;
             padding-top: 72px;
             padding-bottom: 47.59px;
         }
@@ -74,7 +79,7 @@
         @media screen and (min-width:1024px) {
             margin-right: 43px;
             margin-bottom: 16px;
-                font-size: 36px;
+                font-size: 30px;
             }
 
         @media screen and (min-width:1280px) {
@@ -167,5 +172,6 @@
     &__svg-arrow:focus,
     &__svg-arrow:hover {
         fill: $fill-yellow-icons;
+        cursor: pointer;
     }
 }

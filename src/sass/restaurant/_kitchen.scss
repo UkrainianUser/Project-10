@@ -1,12 +1,22 @@
 
 .kitchen {
     background-color: $primary-background-color;
+    background-image: $liner-gradient-main-mobile;
+    max-width: 414px;
+    margin: 0 auto;
     padding-top: 16px;
     padding-bottom: 20px;
     position: relative;
     @media (min-width: 1024px) {
+        background-image: $liner-gradient-main-tablet;
+        max-width: 1024px;
         padding-top: 120px;
         padding-bottom: 32px;
+    }
+
+    @media (min-width: 1280px){
+        max-width: 1280px;
+        background-image: $liner-gradient-main-desktop;
     }
 }
 .kitchen__position-container {
@@ -95,6 +105,7 @@
         }
 }
 .kitchen__foto-meat {
+    min-width: 100%;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
@@ -104,15 +115,18 @@
     display: flex;
     gap: 24px;
     @media (min-width: 1024px) {
+        display: block;
+        // min-width: 194px;
         gap: 40px;
         justify-content: right;
         margin-bottom: 39.59px;
+        margin-top: -58px;
+        margin-right: 0;
+        margin-left: auto;
     }
         @media (min-width: 1280px) {
             display: block;
             margin-bottom: 47.59;
-            margin-left: auto;
-            margin-right: 0;
             margin-top: -167px;
         }
 }
@@ -122,9 +136,12 @@
     background: #DADADA;
     margin-left: 69px;
     margin-bottom: 27.59px;
-    @media (min-width: 1280px) {
+    @media (min-width: 1024px) {
         margin: 0;
     }
+    // @media (min-width: 1280px) {
+    //     margin: 0;
+    // }
 }
 .kitchen__foto-tkemali {
     display: none;
@@ -136,7 +153,16 @@
     display: flex;
     gap: 33.92px;
     justify-content: flex-end;
+    margin-bottom: -40px;
+    
+    @media (min-width: 1024px) {
+        margin-top: 40px;
+    }
     @media (min-width: 1280px) {
         margin-top: 45px;
     }
+}
+
+.kichen__svg-arrow{
+    margin-bottom: -15px;
 }

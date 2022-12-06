@@ -5,9 +5,9 @@
     <p class="details__text"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
     </div>
     <div class="details__wrapper details__wrapper--restoran">
-        <div class="slider__container">
-            <ul class="details__slider">
-                <li class="slider-item">
+        <div class="swiper details-swiper slider__container">
+            <ul class="swiper-wrapper details__slider">
+                <li class="swiper-slide slider-item">
                     <picture>
                         <source srcset="./images/details-restoran/meat-mobile.jpg 1x, ./images/details-restoran/meat-mobile@2x.jpg 2x" 
                         media="(max-width: 1023px)">
@@ -17,7 +17,35 @@
                         media="(min-width: 1280px)">
                         <img class="details-image" src="./images/details-restoran/meat-mobile.jpg" alt="Roast in the plate"></picture>
                 </li>
-                <li class="slider-item">
+                <li class="swiper-slide slider-item">
+                    <picture>
+                        <source srcset="./images/details-restoran/brusketa.jpg 1x, ./images/details-restoran/brusketa@2x.jpg 2x"
+                        media="(max-width: 1023px)">
+                        <source srcset="./images/details-restoran/brusketa-tablet.jpg 1x, ./images/details-restoran/brusketa-tablet@2x.jpg 2x"
+                        media="(max-width: 1279px)">
+                        <source srcset="./images/details-restoran/brusketa-desktop.jpg 1x, ./images/details-restoran/brusketa-desktop@2x.jpg 2x"
+                        media="((min-width: 1280px)">
+                        <img class="details-image details-image--swiper" src="./images/details-restoran/brusketa.jpg" alt="Brusketa on the desk"></picture>
+                </li>
+                <li class="swiper-slide slider-item">
+                    <picture>
+                        <source srcset="./images/details-restoran/salat-tablet.jpg 1x, ./images/details-restoran/salat-tablet@2x.jpg 2x"
+                        media="(max-width: 1279px)">
+                        <source srcset="./images/details-restoran/salat-desktop.jpg 1x, ./images/details-restoran/salat-desktop@2x.jpg 2x"
+                        media="(min-width: 1280px)">
+                        <img class="details-image details-image--swiper" src="./images/details-restoran/salat-tablet.jpg" alt="Salat in the plate"></picture>
+                </li>
+                <li class="swiper-slide slider-item">
+                    <picture>
+                        <source srcset="./images/details-restoran/meat-mobile.jpg 1x, ./images/details-restoran/meat-mobile@2x.jpg 2x" 
+                        media="(max-width: 1023px)">
+                        <source srcset="./images/details-restoran/meat-tablet.jpg 1x, ./images/details-restoran/meat-tablet@2x.jpg 2x" 
+                        media="(max-width: 1279px)">
+                        <source srcset="./images/details-restoran/meat-desktop.jpg 1x, ./images/details-restoran/meat-desktop@2x.jpg 2x" 
+                        media="(min-width: 1280px)">
+                        <img class="details-image" src="./images/details-restoran/meat-mobile.jpg" alt="Roast in the plate"></picture>
+                </li>
+                <li class="swiper-slide slider-item">
                     <picture>
                         <source srcset="./images/details-restoran/brusketa-tablet.jpg 1x, ./images/details-restoran/brusketa-tablet@2x.jpg 2x"
                         media="(max-width: 1279px)">
@@ -25,7 +53,7 @@
                         media="((min-width: 1280px)">
                         <img class="details-image details-image--swiper" src="./images/details-restoran/brusketa-tablet.jpg" alt="Brusketa on the desk"></picture>
                 </li>
-                <li class="slider-item">
+                <li class="swiper-slide slider-item">
                     <picture>
                         <source srcset="./images/details-restoran/salat-tablet.jpg 1x, ./images/details-restoran/salat-tablet@2x.jpg 2x"
                         media="(max-width: 1279px)">
@@ -34,20 +62,14 @@
                         <img class="details-image details-image--swiper" src="./images/details-restoran/salat-tablet.jpg" alt="Salat in the plate"></picture>
                 </li>
             </ul>
-                 <!-- <div>
-                    <svg class="details__arrow button-prev" width="32" height="32">
-                        <use href="./svg/icon.svg#icon-arrow-left"></use>
-                    </svg>
-                 </div> -->
-
             <ul class="details__icon">
                 <li class="icon__item">
-                    <svg class="details__arrow" width="32" height="32">
+                    <svg class="details-button-prev details__arrow" width="32" height="32">
                         <use href="./svg/icon.svg#icon-arrow-left"></use>
                     </svg>
                 </li>
                 <li class="icon__item">
-                    <svg class="details__arrow" width="32" height="32">
+                    <svg class="details-button-next details__arrow" width="32" height="32">
                         <use href="./svg/icon.svg#icon-arrow-right"></use>
                     </svg>
                 </li>

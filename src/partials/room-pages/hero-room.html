@@ -1,5 +1,5 @@
 <section>
-  <div class="container room-hero">
+  <div class="room-hero__container">
     <!-- Swiper -->
     <div class="swiper hero-swiper">
       <div class="swiper-wrapper">
@@ -124,16 +124,21 @@
         <img
           src="./images/hero-images/cil_arrow-left.svg"
           alt="Зображення стрілочки вліво"
+          width="40"
+          height="40"
         />
       </div>
       <div class="swiper-button-next">
         <img
           src="./images/hero-images/cil_arrow-right.svg"
           alt="Зображення стрілочки вправо"
+          width="40"
+          height="40"
         />
       </div>
     </div>
-    <div class="hero-room__text-wrap">
+
+    <div class="room-hero__text-wrap">
       <h1 class="room-hero__title">
         Двомісний номер
         <span class="room-hero__title-small">люкс</span>
@@ -144,24 +149,22 @@
         veniam consequat sunt nostrud amet.
       </p>
     </div>
-    <button
-      class="button hero__btn room-hero__btn"
-      type="button"
-      data-modal-open-price
-    >
+    <button class="room-hero__btn" type="button" data-modal-open>
       Переглянути ціни
     </button>
-    <a
-      class="hero__link room-hero__link"
-      href="https://goo.gl/maps/pxmifmAcoBnW9BxBA"
-      target="_blank"
-      rel="noopener noreferrer nofollow"
-    >
-      <svg class="hero__icon" width="20" height="20">
-        <use href="./svg/icon.svg#icon-location"></use></svg
-      >Україна, м. Полтава,<br />
-      вул. Маршала Бірюзова, 15
-    </a>
+    <address>
+      <a
+        class="room-hero__link"
+        href="https://goo.gl/maps/pxmifmAcoBnW9BxBA"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+      >
+        <svg class="hero__icon" width="20" height="20">
+          <use href="./svg/icon.svg#icon-location"></use></svg
+        >Україна, м. Полтава,<br />
+        вул. Маршала Бірюзова, 15
+      </a>
+    </address>
     <ul class="socials room-hero__socials">
       <li class="socials-item room-hero__socials-item">
         <a

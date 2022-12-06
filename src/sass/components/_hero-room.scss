@@ -22,7 +22,6 @@
 }
 
 .room-hero__title {
-	// width: 325px;
 	margin-bottom: 14px;
 	font-family: 'Times New Roman', serif;
 	font-weight: 700;
@@ -45,7 +44,6 @@
 }
 
 .room-hero__text {
-	// width: 325px;
 	min-height: 74px;
 	font-weight: 700;
 	font-size: 12px;
@@ -72,7 +70,7 @@
 	@include tablet {
 		width: 510px;
 		position: absolute;
-		bottom: 211px;
+		bottom: 104px;
 		left: 47px;
 	}
 
@@ -83,24 +81,6 @@
 	}
 }
 
-.hero__link {
-	position: absolute;
-	top: 64px;
-	right: 15px;
-	display: flex;
-	align-items: center;
-	padding: 8px 3px 9px 6px;
-	width: 210px;
-	border: 1px solid rgba(243, 198, 83, 0.7);
-	border-radius: 2px;
-	font-size: 12px;
-	line-height: 1.25;
-	letter-spacing: 0.01em;
-	text-align: left;
-	font-style: normal;
-	z-index: 10;
-	color: #E5E5E5;
-}
 .room-hero__link {
 	display: flex;
 	align-items: center;
@@ -114,7 +94,13 @@
 	text-align: left;
 	font-style: normal;
 	z-index: 10;
-	color: #E5E5E5;
+	color: $header-address-text-color;
+	transition: border-color 250ms $timing-function;
+		
+	    &:hover,
+	    &:focus {
+			border-color: $yellow-accent-color;
+		}
 	
 	@media screen and (max-width: 1023px) {
 		position: absolute;
@@ -124,8 +110,7 @@
 	}
 
 	@include tablet {
-
-		position: absolute;
+	    position: absolute;
 		top: 630px;
 		left: 47px;
 	}
@@ -174,7 +159,7 @@
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	cursor: pointer;
-	border: 2px solid #fff;
+	border: 2px solid $border-white-button-color;
 	border-radius: 25px;
 	color: $yellow-accent-color;
 	background-color: $homepage-background-button-color;

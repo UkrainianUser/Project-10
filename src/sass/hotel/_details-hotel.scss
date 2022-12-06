@@ -79,20 +79,27 @@
         justify-content: end;
     }
 }
-.slider__container--hotel {
-    padding-right: 40px;
+.swiper.slider__container--hotel {
+    width: 370px;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
     @media screen and (min-width: 1024px) {
+        width: 662px;
         padding-right: 0;
     }
+    @media screen and (min-width: 1280px) {
+        width: 876px;
+    }
 }
-.details__slider--hotel {
-    flex-direction: row-reverse;
-}
+// .swiper-wrapper.details__slider.details__slider--hotel {
+//     // flex-direction: row-reverse;
+// }
 
-.details__icon--hotel {
+.details__icon.details__icon--hotel {
     flex-direction: row-reverse;
 }
-.button__container--hotel {
+.button__container.button__container--hotel {
 
     @media screen and (min-width: 1024px) {
         padding-right: 47px;

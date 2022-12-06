@@ -112,7 +112,7 @@
     margin-bottom: 32px;
 }
 .kitchen__flex-foto {
-    display: flex;
+    display: block;
     gap: 24px;
     @media (min-width: 1024px) {
         display: block;
@@ -153,16 +153,25 @@
     display: flex;
     gap: 33.92px;
     justify-content: flex-end;
-    margin-bottom: -40px;
+    margin-bottom: 0px;
     
     @media (min-width: 1024px) {
         margin-top: 40px;
+        margin-bottom: 0px;
     }
     @media (min-width: 1280px) {
         margin-top: 45px;
+        margin-bottom: 0px;
     }
 }
 
 .kichen__svg-arrow{
     margin-bottom: -15px;
+
+}
+
+.kitchen__svg-arrow:focus,
+.kitchen__svg-arrow:hover {
+    fill: $fill-yellow-icons;
+    cursor: pointer;
 }

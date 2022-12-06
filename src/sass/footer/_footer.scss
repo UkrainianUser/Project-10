@@ -25,6 +25,7 @@
 
     @media screen and (min-width: 1024px){
         max-width: 1024px;
+        max-height: 304px;
         padding: 80px 115px;
         background-image: $liner-gradient-footer-tablet;
     }
@@ -38,12 +39,18 @@
 
 
 .footer-list{
+
+    display: flex;
+    flex-direction: column;
+     gap: 16px;
+     padding-top: 10px;
     &__list{
         padding-bottom: 16px;
+       
+        
     }
-    &__item{
-        margin-bottom: 16px;
-    }
+    // &__item{
+    // }
     &__link{
         font-style: normal;
         font-weight: 500;

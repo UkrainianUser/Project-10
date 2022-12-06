@@ -91,6 +91,24 @@
 
     }
 
+    &__cont{
+
+        transition: color 250ms $timing-function, border-color 250ms $timing-function;
+
+
+
+        @media screen and (min-width: 1024px){
+            border: 1px solid rgba(243,198,83,.7);
+            border-radius: 2px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            padding: 0 8px;
+            display: flex;
+        }
+
+    }
+
     &__icon{
         fill: currentColor ;
     }
@@ -105,23 +123,8 @@
         color: $brown-color;
         transition: color 250ms $timing-function;
 
-        @media screen and (min-width: 1024px){
-            border: 1px solid rgba(243,198,83,.7);
-            border-radius: 2px;
-            justify-content: center;
-            align-items: center;
-            gap: 8px;
-            padding: 0 8px;
-            display: flex;
-        }
-
-        &:hover,
-        &:focus{
-            color:$yellow-accent-color ;
-
-            @media screen and (min-width: 1024px){
-                border-color: $yellow-accent-color;
-            }
+        &:hover{
+            color: $yellow-accent-color;
         }
 
         &:hover span,
@@ -144,29 +147,13 @@
         display: none;
 
         @media screen and (min-width: 1024px){
-            display: block;}
+            display: block;
+            transition: color 250ms $timing-function;}
 
 
     }
 
-    
-
-    &__cont{
-        display: flex;
-    }
 }
-
-.border-setting{
-    border-left: none;
-}
-.border-set{
-    border-right: none;
-}
-
-
-
-
-
 
 
 .socialnet{

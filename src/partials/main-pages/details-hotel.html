@@ -5,9 +5,9 @@
     <p class="details__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
     </div>
     <div class="details__wrapper details__wrapper--hotel">
-        <div class="slider__container--hotel">
-            <ul class="details__slider details__slider--hotel">
-                <li class="slider-item">
+        <div class="swiper details-swiper slider__container--hotel">
+            <ul class="swiper-wrapper details__slider details__slider--hotel">
+                <li class="swiper-slide slider-item">
                     <picture>
                         <source srcset="./images/details-hotel/bedroom-mobile.jpg 1x, ./images/details-hotel/bedroom-mobile@2x.jpg 2x" 
                         media="(max-width: 1023px)">
@@ -17,7 +17,7 @@
                         media="(min-width: 1280px)">
                         <img class="details-image" src="./images/details-hotel/bedroom-mobile.jpg" alt="Bedroom"></picture>
                 </li>
-                <li class="slider-item">
+                <li class="swiper-slide slider-item">
                     <picture>
                         <source srcset="./images/details-hotel/breakfast-tablet.jpg 1x, ./images/details-hotel/breakfast-tablet@2x.jpg 2x"
                         media="(max-width: 1279px)">
@@ -25,7 +25,33 @@
                         media="((min-width: 1280px)">
                         <img class="details-image details-image--swiper" src="./images/details-hotel/breakfast-tablet.jpg" alt="Breakfast"></picture>
                 </li>
-                <li class="slider-item">
+                <li class="swiper-slide slider-item">
+                    <picture>
+                        <source srcset="./images/details-hotel/reception-tablet.jpg 1x, ./images/details-hotel/reception-tablet@2x.jpg 2x"
+                        media="(max-width: 1279px)">
+                        <source srcset="./images/details-hotel/reception-desktop.jpg 1x, ./images/details-hotel/reception-desktop@2x.jpg 2x"
+                        media="(min-width: 1280px)">
+                        <img class="details-image details-image--swiper" src="./images/details-hotel/reception-tablet.jpg" alt="Reception"></picture>
+                </li>
+                <li class="swiper-slide slider-item">
+                    <picture>
+                        <source srcset="./images/details-hotel/bedroom-mobile.jpg 1x, ./images/details-hotel/bedroom-mobile@2x.jpg 2x" 
+                        media="(max-width: 1023px)">
+                        <source srcset="./images/details-hotel/bedroom-tablet.jpg 1x, ./images/details-hotel/bedroom-tablet@2x.jpg 2x" 
+                        media="(max-width: 1279px)">
+                        <source srcset="./images/details-hotel/bedroom-desktop.jpg 1x, ./images/details-hotel/bedroom-desktop@2x.jpg 2x" 
+                        media="(min-width: 1280px)">
+                        <img class="details-image" src="./images/details-hotel/bedroom-mobile.jpg" alt="Bedroom"></picture>
+                </li>
+                <li class="swiper-slide slider-item">
+                    <picture>
+                        <source srcset="./images/details-hotel/breakfast-tablet.jpg 1x, ./images/details-hotel/breakfast-tablet@2x.jpg 2x"
+                        media="(max-width: 1279px)">
+                        <source srcset="./images/details-hotel/breakfast-desktop.jpg 1x, ./images/details-hotel/breakfast-desktop@2x.jpg 2x"
+                        media="((min-width: 1280px)">
+                        <img class="details-image details-image--swiper" src="./images/details-hotel/breakfast-tablet.jpg" alt="Breakfast"></picture>
+                </li>
+                <li class="swiper-slide slider-item">
                     <picture>
                         <source srcset="./images/details-hotel/reception-tablet.jpg 1x, ./images/details-hotel/reception-tablet@2x.jpg 2x"
                         media="(max-width: 1279px)">
@@ -36,12 +62,12 @@
             </ul>
             <ul class="details__icon details__icon--hotel">
                 <li class="icon__item">
-                    <svg class="details__arrow" width="32" height="32">
+                    <svg class="details-button-prev details__arrow" width="32" height="32">
                         <use href="./svg/icon.svg#icon-arrow-right"></use>
                     </svg>
                 </li>
                 <li class="icon__item">
-                    <svg class="details__arrow" width="32" height="32">
+                    <svg class="details-button-next details__arrow" width="32" height="32">
                         <use href="./svg/icon.svg#icon-arrow-left"></use>
                     </svg>
                 </li>

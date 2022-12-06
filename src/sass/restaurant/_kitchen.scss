@@ -1,12 +1,22 @@
 
 .kitchen {
     background-color: $primary-background-color;
+    background-image: $liner-gradient-main-mobile;
+    max-width: 414px;
+    margin: 0 auto;
     padding-top: 16px;
     padding-bottom: 20px;
     position: relative;
     @media (min-width: 1024px) {
+        background-image: $liner-gradient-main-tablet;
+        max-width: 1024px;
         padding-top: 120px;
         padding-bottom: 32px;
+    }
+
+    @media (min-width: 1280px){
+        max-width: 1280px;
+        background-image: $liner-gradient-main-desktop;
     }
 }
 .kitchen__position-container {
@@ -95,6 +105,7 @@
         }
 }
 .kitchen__foto-meat {
+    min-width: 100%;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
@@ -142,6 +153,7 @@
     display: flex;
     gap: 33.92px;
     justify-content: flex-end;
+    margin-bottom: -40px;
     
     @media (min-width: 1024px) {
         margin-top: 40px;
@@ -149,4 +161,8 @@
     @media (min-width: 1280px) {
         margin-top: 45px;
     }
+}
+
+.kichen__svg-arrow{
+    margin-bottom: -15px;
 }

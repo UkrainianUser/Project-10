@@ -1,14 +1,19 @@
 .room-two-luxe {
-        width: 100%;
+        max-width: 414px;
+        margin: 0 auto;
         padding: 32px 0px;
         background-color: $primary-background-color;
     
         @media screen and (min-width:1024px) {
+            background-image: $liner-gradient-main-tablet;
+            max-width: 1024px;
             padding-top: 62px;
             padding-bottom: 47px;
         }
     
         @media screen and (min-width:1280px) {
+            max-width: 1280px;
+            background-image: $liner-gradient-main-desktop;
             padding-top: 72px;
             padding-bottom: 47.59px;
         }
@@ -68,13 +73,19 @@
             letter-spacing: 0.05em;
     
             @media screen and (min-width:1024px) {
-                font-size: 36px;
+                font-size: 30px;
                 margin-bottom: 16px;
             }
     
             @media screen and (min-width:1280px) {
                 margin-bottom: 24px;
             }
+        }
+
+        &__title-span {
+            display: block;
+            text-transform: lowercase;
+            padding-left: 7px;
         }
     
         &__text {
@@ -154,5 +165,6 @@
         &__svg-arrow:focus,
         &__svg-arrow:hover {
             fill: $fill-yellow-icons;
+            cursor: pointer;
         }
     }

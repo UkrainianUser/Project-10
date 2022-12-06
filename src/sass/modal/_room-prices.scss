@@ -1,0 +1,29 @@
+.modal__price-room-type {
+   display: block;
+   margin-bottom: 28px;
+
+   font-family: "Times New Roman";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 1.17;
+   letter-spacing: 0.05em;
+   color: #808080;
+}
+
+.box-price {
+   @media screen and (min-width: 1024px) {
+      display: flex;
+      gap: 16px;
+   }
+}
+.box-price__item {
+   @media screen and (min-width: 1024px) {
+      width: calc((100% - 16px) / 2);
+      margin-bottom: 0px;
+   }
+}
+
+.modal__form-title--price-first {
+   margin-left: 0px;
+}

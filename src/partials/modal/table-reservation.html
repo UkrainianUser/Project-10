@@ -20,6 +20,7 @@
                 class="modal__form-input"
                 name="user-name"
                 placeholder="Ваше ім'я"
+                pattern="[A-Za-zА-Яа-яЁё]"
               />
               <span class="modal__form-title">На кого забронювати столик?</span>
             </label>
@@ -30,13 +31,16 @@
                 class="modal__form-input"
                 name="user-phone"
                 placeholder="+38 (___) ___-__-__"
+                pattern="^\(\d{3}\)\d{3}-\d{2}-\d{2}$"
               />
               <span class="modal__form-title">Номер телефону</span>
             </label>
           </div>
 
           <div class="table-box__item">
-            <label class="modal__form-label modal__form-label--table">
+            <label
+              class="modal__form-label modal__form-label--select modal__form-label--table"
+            >
               <select class="modal__form-input" name="user-amount-people">
                 <option value="1">1</option>
                 <option value="2" selected>2</option>
@@ -54,7 +58,9 @@
               </span>
             </label>
 
-            <label class="modal__form-label modal__form-label--table">
+            <label
+              class="modal__form-label modal__form-label--select modal__form-label--table"
+            >
               <select class="modal__form-input" name="user-amount-people">
                 <option value="today" selected>Сьогодні</option>
                 <option value="monday">Понеділок</option>

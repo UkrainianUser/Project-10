@@ -71,6 +71,9 @@
             font-size: 24px;
             line-height: 1.16;
             letter-spacing: 0.05em;
+            @media screen and (max-width: 413px){
+                display: inline-block;
+            }
     
             @media screen and (min-width:1024px) {
                 font-size: 30px;

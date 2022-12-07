@@ -9,19 +9,8 @@
     max-width: 414px;
     align-items: center;
     padding: 40px 30px;
-    display: flex; 
-
-    
-    @media screen and (min-width: 414px){
-        max-width: 414px;
-        padding: 40px 30px;
-        background-image: linear-gradient(to right,
-        transparent 63.7%,
-        rgba(122, 122, 122, 0.4) 63.7% 63.8%,
-        transparent 63.8%);
-    }
-
-
+    display: flex;
+    background-image: $liner-gradient-footer-mobile;
 
     @media screen and (min-width: 1024px){
         max-width: 1024px;
@@ -44,13 +33,9 @@
     flex-direction: column;
      gap: 16px;
      padding-top: 10px;
-    &__list{
-        padding-bottom: 16px;
-       
-        
-    }
-    // &__item{
-    // }
+     margin-bottom: 32px;
+    
+    
     &__link{
         font-style: normal;
         font-weight: 500;

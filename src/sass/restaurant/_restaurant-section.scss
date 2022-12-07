@@ -64,6 +64,10 @@
         align-items: center;
         gap: 20px;
 
+        @media (max-width: 1023px) {
+            margin-top: 32px;
+        }
+
         @media screen and (min-width: 1024px) {
             gap: 48px;
 
@@ -118,9 +122,9 @@
         border-radius: 2px;
         margin-left: auto;
 
-        @media (max-width: 1023px) {
-            margin-bottom: 32px;
-        }
+        // @media (max-width: 1023px) {
+        //     margin-bottom: 32px;
+        // }
         
         @media (min-width: 1024px) {
             position: absolute;
@@ -138,17 +142,16 @@
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
         
-        @media screen and (max-width: 1023px) {
-            margin-bottom: 32px;
-        }
 
-        @media screen and (min-width: 1280px){
-            width:  460px;
-        }
     }
 }
 
 .swiper-restaurant {
+
+    @media screen and (max-width: 1023px) {
+        margin-top: 32px;
+    }
+
     @media screen and (min-width: 1024px) {
         display: flex;
         flex-direction: column;

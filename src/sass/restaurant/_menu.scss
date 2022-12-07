@@ -40,8 +40,12 @@
 		column-gap: 140px;
 	}
 }
+.table-container__left {
+	margin-bottom: 16px;
+}
 .table-container__left, .table-container__right {
 	@media screen and (min-width: 1024px) {
+		margin-bottom: 0;
 		width: 50%;
 		padding: 0;
 	}
@@ -50,6 +54,9 @@
 	width: 100%;
 	height: fit-content;
 	margin-bottom: 16px;
+}
+.menu__table--margin {
+	margin-bottom: 0;
 }
 .menu__caption {
 	display: inline-block;

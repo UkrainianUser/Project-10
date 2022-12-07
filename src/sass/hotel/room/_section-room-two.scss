@@ -1,18 +1,14 @@
 .room-two {
-    max-width: 414px;
-    margin: 0 auto;
     padding: 32px 0px;
     background-color: $primary-background-color;
 
     @media screen and (min-width:1024px) {
             background-image: $liner-gradient-main-tablet;
-            max-width: 1024px;
             padding-top: 62px;
             padding-bottom: 47px;
         }
 
     @media screen and (min-width:1280px) {
-            max-width: 1280px;
             background-image: $liner-gradient-main-desktop;
             padding-top: 72px;
             padding-bottom: 47.59px;
@@ -71,6 +67,10 @@
         font-size: 24px;
         line-height: 1.16;
         letter-spacing: 0.05em;
+        
+        @media screen and (max-width: 413px) {
+                display: inline-block;
+            }
 
         @media screen and (min-width:1024px) {
                 font-size: 30px;
@@ -111,7 +111,8 @@
     }
     
     &__container {
-    
+        margin-top: 32px;
+
         @media screen and (min-width:1024px) {
                 display: flex;
                 justify-content: space-between;
@@ -134,7 +135,7 @@
 
     &__svg {
         margin-bottom: 27.59px;
-        margin-left: 1.18px;
+        margin-left: 15px;
         display: flex;
         gap: 33.92px;
 

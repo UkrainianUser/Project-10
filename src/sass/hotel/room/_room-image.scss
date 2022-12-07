@@ -1,7 +1,7 @@
 .room-image {
+    display: flex;
+    justify-content: end;
     &__base {
-        margin-bottom: 32px;
-        margin-left: auto;
 
         @media screen and (min-width:1024px) {
                 display: flex;

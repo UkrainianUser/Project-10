@@ -1,7 +1,7 @@
 .about-hotel {
     position: relative;
-    max-width: 414px;
-    margin: 0 auto;
+    // max-width: 414px;
+    // margin: 0 auto;
     padding-top: 18px;
     padding-bottom: 20px;
     background-color: $primary-background-color;
@@ -10,13 +10,13 @@
     @media screen and (min-width: 1024px) {
         padding-top: 120px;
         padding-bottom: 32px;
-        max-width: 1024px;
+        // max-width: 1024px;
         background-image: $liner-gradient-main-tablet;
     }
 
     @media screen and (min-width: 1280px) {
         padding-bottom: 50px;
-        max-width: 1280px;
+        // max-width: 1280px;
         background-image: $liner-gradient-main-desktop;
     }
 
@@ -137,12 +137,12 @@
         
         @media (min-width: 1024px) {
             position: absolute;
-            left: 112px;
+            left: 12%;
             top: -24px;
         }
 
         @media (min-width: 1280px) {
-            left: 180px;
+            left: 18%;
         }
     }
 

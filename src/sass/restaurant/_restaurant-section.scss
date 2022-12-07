@@ -1,7 +1,7 @@
 .restaurant {
     position: relative;
-    max-width: 414px;
-    margin: 0 auto;
+    // max-width: 414px;
+    // margin: 0 auto;
     padding-top: 16px;
     padding-bottom: 20px;
     background-color: $primary-background-color;
@@ -11,13 +11,13 @@
     @media screen and (min-width: 1024px) {
         padding-top: 120px;
         padding-bottom: 32px;
-        max-width: 1024px;
+        // max-width: 1024px;
         background-image: $liner-gradient-main-tablet;
     }
 
     @media screen and (min-width: 1280px) {
         padding-bottom: 50px;
-        max-width: 1280px;
+        // max-width: 1280px;
         background-image: $liner-gradient-main-desktop;
     }
 
@@ -124,12 +124,12 @@
         
         @media (min-width: 1024px) {
             position: absolute;
-            left: 512px;
+            left: 50%;
             top: -32px;
         }
 
         @media (min-width: 1280px) {
-            left: 640px;
+            left: 50%;
             top: -33px;
         }
     }
@@ -140,6 +140,10 @@
         
         @media screen and (max-width: 1023px) {
             margin-bottom: 32px;
+        }
+
+        @media screen and (min-width: 1280px){
+            width:  460px;
         }
     }
 }

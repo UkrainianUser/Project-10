@@ -15,6 +15,11 @@
     width: 100%;
     max-width: 414px;
     align-items: center;
+
+    padding: 40px 30px;
+    display: flex;
+    background-image: $liner-gradient-footer-mobile;
+
     padding:40px 30px;
     display: flex; 
 
@@ -23,6 +28,7 @@
         max-width: 414px;
         background-image: $liner-gradient-footer-mobile;
     }
+
 
 
 
@@ -45,9 +51,16 @@
 
     display: flex;
     flex-direction: column;
+
+     gap: 16px;
+     padding-top: 10px;
+     margin-bottom: 32px;
+    
+
     gap: 16px;
     // padding-top: 10px;
     margin-bottom: 32px;
+
     
     &__link{
         font-style: normal;

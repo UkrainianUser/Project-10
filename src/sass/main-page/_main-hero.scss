@@ -1,6 +1,5 @@
 .main-hero__overlay {
-	max-width: 414px;
-	min-height: 740px;
+	 max-width: 414px;
 	margin: 0 auto;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
 		url('../images/hero-images/main-hero-mobile.jpg');
@@ -15,8 +14,8 @@
 		url('../images/hero-images/main-hero-mobile@2x.jpg');
 	}
 	@media screen and (min-width: 1024px) {
-		max-width: 1024px;
-		min-height: 720px;
+		 max-width: 1024px;
+		
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
 		url('../images/hero-images/main-hero-tablet.jpg');
 

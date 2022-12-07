@@ -1,4 +1,4 @@
-<section>
+<section class="room-hero">
   <div class="room-hero__container">
     <!-- Swiper -->
     <div class="swiper hero-swiper">
@@ -120,21 +120,16 @@
           </picture>
         </div>
       </div>
-      <div class="swiper-button-prev">
-        <img
-          src="./images/hero-images/cil_arrow-left.svg"
-          alt="Зображення стрілочки вліво"
-          width="40"
-          height="40"
-        />
+
+      <div class="swiper-button-prev room-hero__slider-button">
+        <svg class="room-hero__icon-btn" width="40" height="40">
+          <use href="./svg/icon.svg#icon-arrow-left"></use>
+        </svg>
       </div>
-      <div class="swiper-button-next">
-        <img
-          src="./images/hero-images/cil_arrow-right.svg"
-          alt="Зображення стрілочки вправо"
-          width="40"
-          height="40"
-        />
+      <div class="swiper-button-next room-hero__slider-button">
+        <svg class="room-hero__icon-btn" width="40" height="40">
+          <use href="./svg/icon.svg#icon-arrow-right"></use>
+        </svg>
       </div>
     </div>
 
@@ -149,27 +144,25 @@
         veniam consequat sunt nostrud amet.
       </p>
     </div>
-    <button class="room-hero__btn" type="button" data-modal-open-price>
+    <button class="room-hero__btn" type="button" data-modal-open>
       Переглянути ціни
     </button>
-    <address>
-      <a
-        class="room-hero__link"
-        href="https://goo.gl/maps/pxmifmAcoBnW9BxBA"
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-      >
-        <svg class="hero__icon" width="20" height="20">
-          <use href="./svg/icon.svg#icon-location"></use></svg
-        >Україна, м. Полтава,<br />
-        вул. Маршала Бірюзова, 15
-      </a>
-    </address>
+    <a
+      class="hero__link room-hero__link"
+      href="https://goo.gl/maps/pxmifmAcoBnW9BxBA"
+      target="_blank"
+      rel="noopener noreferrer nofollow"
+    >
+      <svg class="hero__icon" width="20" height="20">
+        <use href="./svg/icon.svg#icon-location"></use></svg
+      >Україна, м. Полтава,<br />
+      вул. Маршала Бірюзова, 15
+    </a>
     <ul class="socials room-hero__socials">
       <li class="socials-item room-hero__socials-item">
         <a
           class="socials__link"
-          href="https://www.instagram.com/goitclub/"
+          href="#"
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
@@ -181,7 +174,7 @@
       <li class="socials-item room-hero__socials-item">
         <a
           class="socials__link"
-          href="https://www.facebook.com/goITclub/"
+          href="#"
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
@@ -193,7 +186,7 @@
       <li class="socials-item room-hero__socials-item">
         <a
           class="socials__link"
-          href="https://web.telegram.org/k/"
+          href="#"
           target="_blank"
           rel="noopener noreferrer nofollow"
         >

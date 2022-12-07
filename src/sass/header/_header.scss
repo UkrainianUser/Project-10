@@ -49,6 +49,9 @@
         gap: 20px;
         justify-content: center;
         align-items: center;
+        @media screen and (max-width: 413px){
+            display: inline-block;
+        }
 
         @media screen and (min-width: 1024px){
                 gap: 72px;}

@@ -1,5 +1,4 @@
 .section-contact {
-  max-width: 414px;
   padding-top: 36px;
   padding-bottom: 32px;
   // background-position: center;
@@ -21,12 +20,10 @@
   @media (min-width: 1024px) {
     padding-top: 56px;
     padding-bottom: 51px;
-    max-width: 1024px;
       background-image: $liner-gradient-main-tablet;
   }
 
   @media (min-width: 1280px) {
-    max-width: 1280px;
     padding-top: 56px;
     padding-bottom: 80px;
     background-image: $liner-gradient-main-desktop;
@@ -39,6 +36,10 @@
 
   &:not(:first-child) {
     margin-top: 16px;
+  }
+
+  @media screen and (max-width: 413px){
+    display: inline-block;
   }
 
   @media (min-width: 1024px) {
@@ -155,7 +156,7 @@
 
 .contacts__thumb__location {
   width: 260px;
-  margin-left: 124px;
+  margin-left: auto;
   padding: 8px 33px 7px 10px;
 
   @media (min-width: 1024px) {
@@ -219,6 +220,9 @@
   width: 384px;
   height: 220px;
   margin-top: 32px;
+  @media screen and (max-width: 413px){
+    width: 100%;
+  }
 
   @media (min-width: 1024px) {
     width: 535px;

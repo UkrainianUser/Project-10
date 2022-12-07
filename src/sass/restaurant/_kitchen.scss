@@ -2,20 +2,16 @@
 .kitchen {
     background-color: $primary-background-color;
     background-image: $liner-gradient-main-mobile;
-    max-width: 414px;
-    margin: 0 auto;
     padding-top: 16px;
     padding-bottom: 20px;
     position: relative;
     @media (min-width: 1024px) {
         background-image: $liner-gradient-main-tablet;
-        max-width: 1024px;
         padding-top: 120px;
         padding-bottom: 32px;
     }
 
     @media (min-width: 1280px){
-        max-width: 1280px;
         background-image: $liner-gradient-main-desktop;
     }
 }
@@ -56,7 +52,7 @@
     font-size: 12px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    color: #5F5F5F;
+    color: $third-text-color;
     margin-bottom: 28px;
     max-width: 66.66666%;
     @media (min-width: 1024px) {
@@ -77,10 +73,16 @@
             max-width: 312px;
         }
 }
+
 .kitchen__flex {
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    @media screen and (max-width: 413px){
+        display: inline-block;
+    }
     @media (min-width: 1024px) {
         gap: 40px;
     }
@@ -92,7 +94,6 @@
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
-    margin-bottom: 32px;
     margin-left: auto;
     @media (min-width: 1024px) {
         position: absolute;
@@ -100,8 +101,7 @@
         top: -152px;
     }
         @media (min-width: 1280px) {
-            top: -152;
-            right: 65px;
+           right: 95px;
         }
 }
 .kitchen__foto-meat {
@@ -109,7 +109,6 @@
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background: #DADADA;
-    margin-bottom: 32px;
 }
 .kitchen__flex-foto {
     display: block;

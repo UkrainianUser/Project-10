@@ -3,7 +3,6 @@
   background-color: $primary-background-color;
 
   @include desktop {
-    max-width: 1280px;
     background-image: $liner-gradient-amenities-desktop;
     margin: 0 auto;
   }
@@ -45,14 +44,11 @@
   }
 
   &__first-text-wrapper {
-    @media (max-width: 1023px) {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 
     @include tablet {
-      display: flex;
       flex-direction: row;
       gap: 80px;
     }
@@ -81,6 +77,7 @@
   }
 
   &__text--first-size {
+    margin-bottom: 32px;
     @include tablet {
       width: 757px;
     }

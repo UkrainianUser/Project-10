@@ -14,7 +14,7 @@
 	}
 	@media screen and (min-width: 1280px) {
 		padding-top: 164px;
-	
+		padding-bottom: 65px;
 	}
 }
 .container__hero-btn {
@@ -24,6 +24,9 @@
 		gap: 40px;
 		justify-content: end;
 		margin-bottom: 28px;
+	}
+	@media screen and (min-width: 1280px) {
+		margin-bottom: 0px;
 	}
 }
 .hero__btn {
@@ -72,7 +75,7 @@
 	font-size: 96px;
 	line-height: 1.07;
 	letter-spacing: 0.3em;
-    text-transform: uppercase;
+   text-transform: uppercase;
 	text-align: center;
 	color: $white-text-color;
 
@@ -144,12 +147,12 @@
 		width: 285px;
 		top: auto;
 		right: auto;
-		bottom: 77px;
+		bottom: 56px;
 		left: 48px;
 	}
 
 	@media screen and (min-width: 1280px) {
-		bottom: 20px;
+		bottom: 0px;
 		left: auto;
 	}
 }

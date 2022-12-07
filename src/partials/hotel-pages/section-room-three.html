@@ -154,7 +154,7 @@
                 />
                 <source
                   srcset="
-                    ./images/hotel-room2/bath-tablet.jpg x,
+                    ./images/hotel-room2/bath-tablet.jpg    1x,
                     ./images/hotel-room2/bath-tablet@2x.jpg 2x
                   "
                   type="image/jpeg"
@@ -260,22 +260,26 @@
             </svg>
           </div>
         </div>
-        <div class="room-button">
-          <button
-            class="room-button__button"
-            type="button"
-            onclick="window.location.href = './room.html';"
-          >
-            Детальніше
-          </button>
-          <button
-            class="room-button__button"
-            type="button"
-            data-modal-open-price
-          >
-            Переглянути ціни
-          </button>
-        </div>
+        <ul class="room-button">
+          <li class="room-button__list">
+            <button
+              class="room-button__button"
+              type="button"
+              onclick="window.location.href = './room.html';"
+            >
+              Детальніше
+            </button>
+          </li>
+          <li class="room-button__list">
+            <button
+              class="room-button__button"
+              type="button"
+              data-modal-open-price
+            >
+              Переглянути ціни
+            </button>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

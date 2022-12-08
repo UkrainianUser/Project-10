@@ -1,7 +1,4 @@
 .about-hotel {
-    position: relative;
-    // max-width: 414px;
-    // margin: 0 auto;
     padding-top: 18px;
     padding-bottom: 20px;
     background-color: $primary-background-color;
@@ -18,6 +15,10 @@
         padding-bottom: 50px;
         // max-width: 1280px;
         background-image: $liner-gradient-main-desktop;
+    }
+
+    &__container-position {
+        position: relative;
     }
 
     &__text {
@@ -134,34 +135,22 @@
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
         margin-right: auto;
-
-        // @media (max-width: 1023px) {
-        //     margin-bottom: 32px;
-        // }
         
         @media (min-width: 1024px) {
             position: absolute;
-            left: 12%;
-            top: -24px;
+            left: 65px;
+            top: -144px;
         }
 
 
         @media (min-width: 1280px) {
-            left: 15%;
-
-        // @media (min-width: 1280px) {          
-        //     left: 180px;
-
-        // }
+            left: 100px;
+            
     }
 
     &__image-second {
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
-
-        // @media screen and (max-width: 1023px) {
-        //     margin-bottom: 32px;
-        // }
     }
 }
 

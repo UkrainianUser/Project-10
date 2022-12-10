@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Babytskyi-Kolya.github.io/Mimino-project",
+  "homepage": "https://UkrainianUser.github.io/Project-10",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Mimino-project/"
+    "build": "parcel build src/*.html --public-url /Project-10/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Babytskyi-Kolya.github/Mimino-projectnode.git"
+    "url": "git+https://github.com/UkrainianUser.github/Project-10.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
